@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CANVASの情報をサーバへ送信</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all">
+</head>
+<body>
+
+<h1>Canvasを画像に変換しサーバへ送信</h1>
+
+<div id="container">
+  <section id="previw">
+    <h2>プレビュー</h2>
+    <canvas id="board" width="1140" height="640"></canvas>
+
+    <form id="frm">
+      文字色:<input id="color-text" type="color" value="#0000FF"> 背景色:<input id="color-bg" type="color" value="#FFFFFF"><br>
+      <input type="text" id="txt-message" placeholder="文字を入力してください"><br>
+      <button type="button" id="btn-send">サーバへ保存</button>
+    </form>
+  </section>
+
+  <section id="arrow">
+    <div><img src="icon/arrow-circle-right-solid.svg" width="50" height="50" alt="→"></div>
+  </section>
+
+  <section id="savelist">
+    <h2>保存済み画像</h2>
+    <ul id="result"></ul>
+  </section>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

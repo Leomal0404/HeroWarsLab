@@ -1,0 +1,1238 @@
+@charset "UTF-8";
+
+#content{
+	font-size:14px;
+}
+
+h1 {
+    padding: 0.5em;/*文字周りの余白*/
+    color: #ffffff;/*文字色*/
+    background: #3f3831;/*背景色*/
+    border-left: solid 8px #464781;/*左線（実線 太さ 色）*/
+    font-size:110%;
+}
+
+/* メニューリスト */
+.headListArea{
+	margin:8px 0px 32px 0px;
+	width:100%;
+}
+
+#targetSwitch{
+	width:100%;
+}
+
+#targetSwitch ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	padding:0;
+}
+
+#targetSwitch li{
+	border: 1px solid #c5ae7d;
+	background-color: rgb(63, 60, 56);
+	margin:0px 12px 8px 0px;
+	padding:5px;
+	cursor:default;
+	list-style: none;
+	white-space: nowrap;
+	font-size:80%;
+}
+
+#targetSwitch .active{
+	background-color: rgb(47, 47, 56);
+	color:#6ad0ff;
+	border: 2px solid #6ad0ff;
+}
+
+#targetSwitch li a{
+	text-decoration: none;
+}
+
+/* 保存スロット */
+#customSaveArea{
+	width:820px;
+	margin:0px 0px 24px 0px;
+	border: 1px solid;
+	border-radius: 10px;
+	padding:6px;
+	background-color: rgb(23, 42, 82);
+}
+
+.customSaveButtonBox{
+	float:left;
+	width:120px;
+	margin:0px 10px 0px 6px;
+}
+
+.customSaveNameInput{
+	width:100px;
+}
+
+.customSaveButtonLayer{
+	padding:5px 0px 0px 0px;
+}
+
+/* チームスロット */
+#battle_team_box{
+	margin:16px 0px 0px 0px;
+	width:830px;
+}
+
+#battle_team_box .member_pos{
+	margin:18px 0px 0px 7px;
+}
+
+#battle_team_box .member_box{
+	float:left;
+	width:60px;
+	height:60px;
+	margin:0px 0px 0px 12px;
+	background-color: rgba(156, 145, 145, 0.1);
+}
+
+#own_team_list{
+	background-image: url("../../common/img/teamFrame.png");
+	background-position: left 0px top 0px;
+	background-repeat: no-repeat;
+	width:400px;
+	height:108px;
+	float:left;
+	position:relative;
+}
+
+#enemy_team_list{
+	background-image: url("../../common/img/teamFrame.png");
+	background-position: left 0px top 0px;
+	background-repeat: no-repeat;
+	width:400px;
+	height:108px;
+	float:right;
+	position:relative;
+}
+
+.team-power-view{
+	position:absolute;
+	top:-8px;
+	left:166px;
+	width:80px;
+	height:18px;
+	text-align:center;
+	background-color: rgba(22, 14, 14, 0.8);
+	color:#ffffff;
+	border: 3px solid rgb(197, 160, 113);
+	border-radius: 8px;
+}
+
+.team-dir-view{
+	position:absolute;
+	top:-8px;
+	left:140px;
+	width:18px;
+	height:18px;
+	text-align:center;
+	background-color: rgba(22, 14, 14, 0.8);
+	color:#ffffff;
+	border: 3px solid rgb(197, 160, 113);
+	border-radius: 8px;
+	cursor: pointer !important;
+}
+
+
+.avatarBox {
+    position: relative;
+}
+.avatar {
+	width:40px;
+	height:40px;
+    transform: translate(1px,2px);
+}
+.skillAvatar {
+	width:80px;
+	height:80px;
+    transform: translate(1px,2px);
+}
+.avatarFrame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+/* タイタンリスト */
+/* ヒーローリスト */
+#titan_team_list{
+	border: 1px solid #252525;
+	margin:16px 0px 20px 0px;
+	background-color: #303066;
+	width:840px;
+	overflow-y: scroll;
+}
+
+.titan_list_height{
+	height:240px;
+}
+
+#titan_team_list ul{
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin:0px 0px 0px 0px;
+}
+
+#titan_team_list li{
+	margin:5px;
+	padding:5px;
+	width:70px;
+	cursor: default；
+}
+
+#titan_team_list li .titanImage{
+	margin:0px 0px 0px 5px;
+	width:60px;
+}
+
+#titan_team_list li .titan-avatar-image{
+	background-color: #302c2c;
+	width:58px;
+	height:58px;
+}
+
+#titan_team_list li .namePlate{
+	border: 2px solid #ffc70f;
+	background-color: #1a1a29;
+	color: #fcff62;
+	margin:0px 0px 0px 0px;
+	padding:3px;
+	width:60px;
+	font-size:70%;
+	cursor:default;
+}
+
+#titan_team_list li .namePlate a {	text-decoration:none; }
+#titan_team_list li .namePlate a:link { color: #ffffff; }
+#titan_team_list li .namePlate a:visited { color: #ffffff; }
+#titan_team_list li .namePlate a:hover { color: #fcff62; }
+#titan_team_list li .namePlate a:active { color: #fcff62; }
+
+
+
+/* リソース情報ウィンドウ */
+.resource_modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.resource_content{
+	background-image: url("../../common/img/resourceInfo.png");
+	background-repeat: no-repeat;
+	width: 840px;
+	height: 462px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+	color:#ffffff;
+}
+
+.resource_content #resourceArea{
+	float:left;
+	margin:2px 0px 0px 23px;
+	width:760px;
+	height:462px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.resource_content #resourcePotionArea{
+	width:700px;
+	padding:6px 6px 6px 18px;
+	margin:6px;
+	border: 1px solid #8dfbff;
+}
+
+.resource_content #resourceArea #resourceInfo{
+	margin:45px 0px 0px 10px;
+}
+
+.resourceTable{
+	border-collapse:  collapse;
+	width:725px;
+	font-size:90%;
+	margin:6px;
+}
+.resourceTable th {
+	border: solid 1px rgb(211, 118, 255);
+	color:#fef8ff;
+	background-color: rgb(19, 1, 22);
+}
+	
+.resourceTable td {
+	border: solid 1px rgb(211, 118, 255);
+	color:#f8ebff;
+	background-color: rgb(47, 39, 53);
+}
+
+.skinResourceTable{
+	border-collapse:  collapse;
+	width:725px;
+	font-size:90%;
+	margin:6px;
+}
+.skinResourceTable th {
+	border: solid 1px rgb(162, 189, 181);
+	color:#f8fffe;
+	background-color: rgb(2, 37, 30);
+}
+	
+.skinResourceTable td {
+	border: solid 1px rgb(162, 189, 181);
+	color:#ebfff8;
+	background-color: rgb(58, 73, 70);
+}
+
+
+/* コンタクト/データJSONウィンドウ */
+.dataJSON_modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.contact_modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.general_modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.general_content{
+	background-image: url("../../common/img/resourceInfo.png");
+	background-repeat: no-repeat;
+	width: 840px;
+	height: 462px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+	color:#ffffff;
+}
+
+.general_content #generalArea{
+	float:left;
+	margin:2px 0px 0px 23px;
+	width:760px;
+	height:462px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.general_content #generalCloseBtn{
+	float:left;
+	margin:2px 0px 0px 11px;
+	width:45px;
+	height:45px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.resource_content #resourceCloseBtn{
+	float:left;
+	margin:2px 0px 0px 11px;
+	width:45px;
+	height:45px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.resource_content #dataCodeCloseBtn{
+	float:left;
+	margin:2px 0px 0px 11px;
+	width:45px;
+	height:45px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.resource_content #contactCloseBtn{
+	float:left;
+	margin:2px 0px 0px 11px;
+	width:45px;
+	height:45px;
+	background-color: rgba(255, 251, 23, 0);
+}
+
+.resource_content #dataCodeArea{
+	float:left;
+	margin:2px 0px 0px 23px;
+	width:760px;
+	height:462px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.resource_content #contactArea{
+	float:left;
+	margin:2px 0px 0px 23px;
+	width:760px;
+	height:462px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+#dataCodeIndex{
+	width:720px;
+	margin:50px 0px 0px 20px;
+}
+#dataCodeForm{
+	width:720px;
+	height:250px;
+	margin:16px 0px 0px 20px;
+	padding:10px;
+	border: 1px solid rgb(243, 255, 174);
+	overflow-wrap:break-word;
+	overflow-y: auto;
+}
+#dataCodeButton{
+	width:720px;
+	margin:16px 0px 0px 20px;
+}
+
+.flipHorizon{
+	transform: scale(-1, 1);
+}
+.greyDown{
+	filter: brightness(40%);
+}
+.greyScale{
+	-webkit-filter: sepia(100%) brightness(40%);
+	-moz-filter: sepia(100%) brightness(40%);
+	-ms-filter: sepia(100%) brightness(40%);
+	-o-filter: sepia(100%) brightness(40%);
+	filter: sepia(100%) brightness(40%);
+}
+
+
+/* タイタン設定ウィンドウ */
+.titan_custom_modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.titan_custom_modal .btnPos{
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+	margin:0px 5px 0px 5px;
+}
+
+.titan_custom_modal #tabMenu{
+	float:left;
+	width: 134px;
+	height: 462px;
+}
+
+.titan_custom_modal #tabMenu .tabHead{
+	width: 134px;
+	height: 54px;
+	margin-top: 40px;
+	color:#ffe9c7;
+	font-size:80%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	cursor:default;
+}
+.titan_custom_modal #tabMenu .tabLow{
+	width: 134px;
+	height: 54px;
+	margin-top: 8px;
+	color:#ffe9c7;
+	font-size:80%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	cursor:default;
+}
+
+.titan_custom_modal #tabMenu .tabDefault{
+	background-image: url("../../heroBattle/img/default_tab.png");
+	background-repeat: no-repeat;
+}
+
+.titan_custom_modal #tabMenu .tabActive{
+	background-image: url("../../heroBattle/img/active_tab.png");
+	background-repeat: no-repeat;
+}
+
+.titan_custom_content{
+	background-image: url("../../titanBattle/img/titan_custom_bg.png");
+	background-repeat: no-repeat;
+	width: 840px;
+	height: 462px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+	color:#ffffff;
+}
+
+.titan_custom_content #detailArea{
+	float:left;
+	width: 306px;
+	height: 462px;
+}
+
+.titan_custom_content .arrowButtonBox{
+	float:left;
+	width: 38px;
+	height: 58px;
+	margin:0px 15px 0px 0px;
+}
+
+.titan_custom_content #detailArea #statusDisplay{
+	position:absolute;
+	width: 306px;
+	height: 462px;
+	background-image: url("../../titanBattle/img/titan_statusDisplay_bg.png");
+	background-repeat: no-repeat;
+}
+.titan_custom_content #detailArea #skinDisplay{
+	position:absolute;
+	width: 306px;
+	height: 462px;
+}
+.titan_custom_content #detailArea #skinDisplay #skinArrayArea{
+	width: 306px;
+	margin:135px 0px 0px 0px;
+}
+.titan_custom_content #detailArea #skinDisplay #skinArrayArea .titanSkinBox{
+	width: 306px;
+	height:80px;
+	margin:5px 0px 16px 0px;
+}
+
+.titan_custom_content #detailArea #expArea{
+	margin:45px 0px 0px 108px;
+	height:33px;
+	font-size:110%;
+	background-color: rgba(83, 255, 126, 0);
+}
+
+.titan_custom_content #detailArea #lvDisp{
+	display: inline-block;
+	width: 37px;
+	text-align:center;
+	font-weight:bold;
+	font-size:120%;
+}
+
+.titan_custom_content #detailArea #costArea{
+	background-color: rgba(83, 255, 126, 0);
+	height:35px;
+	margin:5px 0px 0px 12px;
+}
+
+.titan_custom_content #detailArea #statsArea{
+	background-color: rgba(83, 255, 126, 0);
+	height:115px;
+	margin:20px 0px 0px 5px;
+}
+
+.titan_custom_content #detailArea #artifactArea{
+	background-color: rgba(83, 255, 126, 0);
+	height:140px;
+	margin:35px 0px 0px 6px;
+}
+
+.titan_custom_content #detailArea #artifactArea #artifactIconArea .titanArtifactBox{
+	width:87px;
+	height:87px;
+	margin:5px 2px 0px 8px;
+	float:left;
+}
+
+.titanArtifactFrame{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+	position: absolute;
+	top:-1px;
+	left:-1px;
+	width:75px;
+	height:75px;
+}
+
+.titanArtifactStarDisp{
+	position: absolute;
+	top:55px;
+	left:-1px;
+	width:75px;
+}
+
+.titanArtifactLevelDisp{
+	position: absolute;
+	top:-10px;
+	left:17px;
+	color:#ffffff;
+	font-size:90%;
+	width:40px;
+	height:27px;
+	padding-top:5px;
+	text-align:center;
+	background-repeat: no-repeat;
+	background-position: left 0px top 0px;
+}
+
+.titan_custom_content #detailArea #artifactArea .artbtnPos{
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+	margin:0px 5px 0px 0px;
+}
+
+.titan_custom_content #detailArea #artifactArea .valueDisp{
+	display: inline-block;
+	width: 37px;
+	text-align:center;
+}
+
+.titan_custom_content #screenArea{
+	float:left;
+	width: 400px;
+	height: 462px;
+}
+
+.titan_custom_content #screenArea #screenHeader{
+	background-color: rgba(34, 255, 89, 0);
+}
+
+.titan_custom_content #screenArea .nameLabel{
+	float:left;
+	margin:4px 0px 0px 48px;
+	width:296px;
+	height:52px;
+
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	cursor:default;
+
+	
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.titan_custom_content #screenArea .whiteLabel{
+	background-image: url("../../heroBattle/img/nameLabel_white.png");
+	background-repeat: no-repeat;
+	background-position: left 0px top 8px;
+}
+.titan_custom_content #screenArea .greenLabel{
+	background-image: url("../../heroBattle/img/nameLabel_green.png");
+	background-repeat: no-repeat;
+	background-position: left 0px top 8px;
+}
+.titan_custom_content #screenArea .blueLabel{
+	background-image: url("../../heroBattle/img/nameLabel_blue.png");
+	background-repeat: no-repeat;
+	background-position: left 0px top 8px;
+}
+.titan_custom_content #screenArea .violetLabel{
+	background-image: url("../../heroBattle/img/nameLabel_violet.png");
+	background-repeat: no-repeat;
+	background-position: left 0px top 8px;
+}
+.titan_custom_content #screenArea .orangeLabel{
+	background-image: url("../../heroBattle/img/nameLabel_orange.png");
+	background-repeat: no-repeat;
+	background-position: left 0px top 8px;
+}
+
+.titan_custom_content #screenArea #closeBtn{
+	float:left;
+	margin:2px 0px 0px 11px;
+	width:45px;
+	height:45px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.titan_custom_content #screenArea #titanImageBox{
+	width:382px;
+	height:275px;
+	position:relative;
+}
+
+.titan_custom_content #screenArea #titanImage{
+	background-image: url("../../hero/img/001_Default_Skin.png");
+	background-repeat: no-repeat;
+	background-position: left 0px top 8px;
+	top: 0px;
+	left: 0px;
+	width:382px;
+	height:275px;
+	position: absolute;
+}
+
+
+
+/* スキンウィンドウ */
+.skillIconCol{
+	float:left;
+	width: 90px;
+	height: 90px;
+	margin:0px 0px 0px 0px;
+}
+.skillDetailCol{
+	float:left;
+	width: 170px;
+	height: 90px;
+	margin:0px 0px 0px 5px;
+}
+.skillNameIndex{
+	width:170px;
+	height:30px;
+	font-weight:bold;
+	font-size:110%;
+	color:#fae5b9;
+	margin:5px 0px 0px 0px;
+}
+.skillLevelCustomArea{
+	width:170px;
+	height:50px;
+	margin:5px 0px 0px 0px;
+}
+
+
+
+.titanSkillBox{
+	margin:0px 0px 6px 10px;
+	width:340px;
+	height:50px;
+	border: 1px solid;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.titanSkillBoxDummy{
+	margin:0px 0px 6px 10px;
+	width:340px;
+	height:50px;
+}
+
+.titanSkillIcon{
+	float:left;
+	margin:8px 0px 0px 5px;
+	width:35px;
+}
+
+.titanSkillDetail{
+	float:left;
+	margin:2px 2px 2px 5px;
+	width:285px;
+	word-wrap: break-word;
+	font-size:80%;
+}
+
+.titanSkillName{
+	color:#cec489;
+	font-weight:bold;
+}
+
+.titanSkillValue{
+	color:#67ff73;
+}
+
+
+
+.titan_custom_content #screenArea #titanImageBox #starArea{
+	width:155px;
+	height:40px;
+	top: -15px;
+	left: 115px;
+	position: absolute;
+}
+
+.titan_custom_content #screenArea #titanImageBox #skillArea{
+	width:380px;
+	height:120px;
+	top: 190px;
+	left: 5px;
+	bottom: 0;
+	position: absolute;
+}
+
+.titan_custom_content #screenArea #obtainArea{
+	float:left;
+	width:275px;
+}
+
+
+.titan_custom_content #screenArea #obtainArea #soulArea{
+	margin:68px 0px 0px 75px;
+	height:55px;
+}
+
+.titan_custom_content #screenArea #obtainArea #soulArea #starDisp{
+	display: inline-block;
+	width: 37px;
+	text-align:center;
+	font-weight:bold;
+	font-size:120%;
+}
+
+
+
+.titan_custom_content #screenArea #powerArea{
+	float:left;
+	width:100px;
+	height:100px;
+}
+
+.titan_custom_content #screenArea #powerArea #powerView{
+	margin:72px 0px 0px 18px;
+	width:70px;
+	text-align:center;
+}
+
+
+
+
+
+#battleResultArea{
+	margin:16px 0px 20px 0px;
+}
+
+#battleResultHeader{
+	display:none;
+}
+.resultButton{
+	margin:0px 0px 16px 12px;
+	width:120px;
+	height:25px;
+	float:left;
+	display:none;
+}
+.resultTargetSelect{
+	margin:0px 0px 16px 12px;
+	width:120px;
+	height:25px;
+	float:left;
+}
+
+#battleResultWinRate{
+	border: 1px solid #a59447;
+	background-color: rgb(53, 50, 48);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:#fffffe;
+	margin:0px 0px 16px 12px;
+	width:120px;
+	height:25px;
+	float:left;
+}
+
+.battleWinResultViewButton_off{
+	border: 1px solid #6cd2f1;
+	background-color: rgb(22, 27, 56);
+	align-items: center;
+	justify-content: center;
+	width:120px;
+	height:25px;
+	color:#aaaaaa;
+}
+.battleLoseResultViewButton_off{
+	border: 1px solid #d66464;
+	background-color: rgb(54, 29, 29);
+	align-items: center;
+	justify-content: center;
+	width:120px;
+	height:25px;
+	color:#aaaaaa;
+}
+.battleWinResultViewButton_active{
+	border: 2px solid #6cd2f1;
+	background-color: rgb(22, 27, 56);
+	align-items: center;
+	justify-content: center;
+	width:118px;
+	height:23px;
+	color:#fffb00;
+}
+.battleLoseResultViewButton_active{
+	border: 2px solid #d66464;
+	background-color: rgb(54, 29, 29);
+	align-items: center;
+	justify-content: center;
+	width:118px;
+	height:23px;
+	color:#fffb00;
+}
+
+.healColor{
+	color:#8fff17;
+}
+
+.defCursor{
+	cursor: default !important;
+}
+
+#simulateAnalyseTable{
+	width:840px;
+}
+#simulateAnalyseTable th{
+	font-weight:bold;
+}
+.analyseTableOwnHead{
+	color:#7aefff;
+	background-color: rgb(1, 3, 15);
+}
+.analyseTableEnemyHead{
+	color:#ff92c5;
+	background-color: rgb(24, 0, 0);
+}
+.analyseTableEdenHead{
+	color:#6fff43;
+	background-color: rgb(24, 0, 0);
+}
+
+.AnalyzeScrollArea{
+	height:150px;
+	overflow-y: scroll;
+}
+
+#simulateAnalyseTable td{
+	color:#ffffff;
+	background-color: rgb(53, 50, 48);
+}
+
+.battleResultTable{
+	border-collapse:  collapse;
+	
+}
+
+.battleResultTable th {
+	border: solid 1px black;
+	background-color: rgb(14, 14, 13);
+	padding:2px;
+}
+.battleResultTable td {
+	border: solid 1px black;
+	background-color: rgb(53, 50, 48);
+	padding:2px;
+}
+
+.battleResultTable th{
+	font-weight:bold;
+	color:#fcff62;
+	height:40px;
+}
+.battleResultTable td{
+	color:#ffffff;
+	height:40px;
+}
+
+#reesultAnalysis{
+	margin:0px 0px 16px 0px;
+}
+#logJournalMain{
+	height:300px;
+	overflow-y: scroll;
+	margin:0px 0px 50px 0px;
+}
+
+.logJournalAvatarBox {
+    position: relative;
+	margin:0px 0px 0px 1px;
+}
+.logJournalAvatar {
+	width:30px;
+	height:30px;
+    transform: translate(2px,1px);
+}
+.logJournalAvatarFrame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.resultPostionTable{
+	border-collapse:  collapse;
+	
+}
+
+.resultPostionTable td{
+	font-size:60%;
+	border:0px none;
+	width:25px;
+}
+.resultPositionEnemy{
+    border: 1px solid #ff1919;
+}
+.resultPositionOwn{
+    border: 1px solid #288cff;
+}
+
+.titanSkinTableScrollArea{
+	height:700px;
+	overflow-y: scroll;
+	margin:0px 0px 55px 0px;
+}
+.titanSkinTable{
+	border-collapse:  collapse;
+	
+}
+.titanSkinTable th {
+	border: solid 1px black;
+	color:#95ff75;
+	background-color: rgb(14, 14, 13);
+	width:95px;
+}
+	
+.titanSkinTable td {
+	border: solid 1px black;
+	color:#ffffff;
+	background-color: rgb(53, 50, 48);
+	width:95px;
+}
+
+
+.avatar-box{
+	position: relative;
+	width:60px;
+	height:70px;
+}
+
+.titan-frame{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:60px;
+	height:60px;
+}
+
+.level-disp{
+	position: absolute;
+	top:2px;
+	left:17px;
+	color:#ffffff;
+	font-size:80%;
+	width:25px;
+	text-align:center;
+}
+
+.star-disp{
+	position: absolute;
+	top:50px;
+	left:0px;
+	width:60px;
+}
+
+
+.avatar-box2{
+	position: relative;
+	width:70px;
+	height:75px;
+}
+
+.titan-frame2{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:70px;
+	height:70px;
+}
+
+.level-disp2{
+	position: absolute;
+	top:2px;
+	left:23px;
+	color:#ffffff;
+	font-size:80%;
+	width:25px;
+	text-align:center;
+}
+
+.star-disp2{
+	position: absolute;
+	top:55px;
+	left:0px;
+	width:70px;
+}
+
+
+
+
+.responsiveArea{
+	width:100%;
+	transform-origin: top left;
+	transform: scale(1);
+}
+.responsiveModalArea{
+	width:100%;
+	height:100vh;
+	transform-origin: top left;
+	transform: scale(1);
+}
+
+@media only screen and (max-width : 1650px) {
+
+}
+
+@media only screen and (max-width : 1400px) {
+
+}
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 1080px) {
+
+}
+
+@media only screen and (max-width : 955px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.95);
+	}
+}
+
+@media only screen and (max-width : 910px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.9);
+	}
+}
+
+@media only screen and (max-width : 880px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.85);
+	}
+}
+
+@media only screen and (max-width : 835px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.8);
+	}
+}
+
+@media only screen and (max-width : 760px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.7);
+	}
+}
+
+@media only screen and (max-width : 670px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.6);
+	}
+}
+
+@media only screen and (max-width : 585px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.5);
+	}
+}
+
+@media only screen and (max-width : 500px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.4);
+	}
+}
+
+@media only screen and (max-width : 410px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.35);
+	}
+}
+
+
+
+
+
+@media (max-width : 730px) and (orientation: landscape){
+	.responsiveModalArea{
+		transform-origin: 50% 39%;
+		transform: scale(0.5);
+	}
+}
+
+@media (max-width : 700px) and (orientation: landscape){
+	.responsiveModalArea{
+		transform-origin: 50% 39%;
+		transform: scale(0.4);
+	}
+}
+
+@media (max-width : 410px) and (orientation: portrait){
+	.responsiveModalArea{
+		transform-origin: 5% 10%;
+		transform: scale(0.42);
+	}
+}
+
+@media (max-width : 370px) and (orientation: portrait){
+	.responsiveModalArea{
+		transform-origin: 10% 15%;
+		transform: scale(0.36);
+	}
+}

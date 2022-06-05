@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+h1 {
+  padding: 0.5em;/*文字周りの余白*/
+  color: #ffffff;/*文字色*/
+  background: #3f3831;/*背景色*/
+  border-left: solid 8px #464781;/*左線（実線 太さ 色）*/
+  font-size:110%;
+}
+
+h2 {
+  font-size:100%;
+  color: #ffffff;
+  position: relative;
+  padding: 0.25em 0;
+}
+h2:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(218, 199, 171), transparent);
+  background: linear-gradient(to right, rgb(218, 199, 171), transparent);
+}
+
+.nowDateContainer{
+  float:left;
+  border: solid 1px rgb(218, 204, 177);
+  background-color: #3f3831;
+  font-weight:bold;
+  margin:0px 10px 0px 0px;
+  padding:2px 6px 2px 6px;
+}
+
+.assignTableContainer{
+	margin:0px 0px 0px 0px;
+	width:100%;
+	overflow-x: auto;
+  box-sizing:border-box;
+}
+
+.assignTable{
+  border: solid 1px rgb(218, 204, 177);
+  margin:0px 0px 16px 0px;
+}
+
+.assignTable th{
+  font-size:70%;
+}
+
+.memberListTable{
+  border: solid 1px rgb(218, 204, 177);
+	border-collapse:  collapse;
+	margin:0px 0px 0px 0px;
+}
+.memberListTable th {
+	color:#ffffff;
+	background-color: rgb(14, 14, 13);
+  padding:3px 0px 3px 0px;
+}
+.memberListTable td {
+  padding:3px 0px 3px 0px;
+}
+
+.assignBaseCell {
+	border: solid 1px black;
+	color:#ffffff;
+	background-color: rgb(50, 52, 56);
+}
+.assignSubCell {
+	border: solid 1px black;
+	color:#ffffff;
+	background-color: rgb(86, 89, 94);
+}
+
+.memberListTableBox{
+	height:300px;
+	width:960px;
+	overflow-y: scroll;
+}
+
+.assignSumCell {
+	border: solid 1px black;
+	color:#fbff00;
+	background-color: rgb(50, 52, 56);
+}
+
+.assignCell_dark{
+	border: solid 1px black;
+	color:#ffffff;
+	font-weight:bold;
+	background-color: rgb(63, 1, 99);
+}
+.assignCell_water{
+	border: solid 1px black;
+	color:#ffffff;
+	font-weight:bold;
+	background-color: rgb(2, 31, 92);
+}
+.assignCell_earth{
+	border: solid 1px black;
+	color:#ffffff;
+	font-weight:bold;
+	background-color: rgb(8, 59, 2);
+}
+.assignCell_light{
+	border: solid 1px black;
+	color:#ffffff;
+	font-weight:bold;
+	background-color: rgb(65, 60, 0);
+}
+.assignCell_wind{
+	border: solid 1px black;
+	color:#ffffff;
+	font-weight:bold;
+	background-color: rgb(7, 38, 43);
+}
+.assignCell_fire{
+	border: solid 1px black;
+	color:#ffffff;
+	font-weight:bold;
+	background-color: rgb(58, 2, 2);
+}
+
+.logTable{
+  border: solid 2px rgb(218, 204, 177);
+  margin:0px 0px 16px 0px;
+  border-collapse:  collapse;
+  font-size:70%;
+}
+
+.logTable th {
+	color:#ffffff;
+	background-color: rgb(14, 14, 13);
+  border: solid 1px rgb(124, 117, 103);
+  padding:3px;
+}
+.logTable td {
+  border: solid 1px rgb(124, 117, 103);
+  padding:3px;
+}
+
+.logTable a {	text-decoration:none; }
+.logTable a:link { font-size:100%;color: #e9ff20; }
+.logTable a:visited { font-size:100%;color: #e9ff20; }
+.logTable a:hover { font-size:100%;color: #e9ff20; text-decoration:underline;}
+.logTable a:active { font-size:100%;color: #e9ff20; }
+
+.plan_modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .plan_modal-content {
+    background-color: #f4f4f4;
+    margin: 20% auto;
+    width: 50%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+    animation-name: modalopen;
+    animation-duration: 1s;
+  }
+  
+  @keyframes modalopen {
+    from {opacity: 0}
+    to {opacity: 1}
+  }
+  
+  .plan_modal-header h1 {
+    margin: 1rem 0;
+  }
+  
+  .plan_modal-header {
+    background: lightblue;
+    padding: 3px 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .plan_modalClose {
+    font-size: 2rem;
+  }
+  
+  .plan_modalClose:hover {
+    cursor: pointer;
+  }
+  
+  .plan_modal-body {
+    padding: 10px 20px;
+    color: black;
+  }
+
+
+  .forDiscordTable{
+    border-collapse:  collapse;
+    margin:0px 0px 0px 0px;
+  }
+  .forDiscordTable th {
+    background: rgb(3, 19, 65);
+    font-weight:bold;
+    color:#ffffff;
+  }
+  .forDiscordTable td {
+    padding:18px 12px;
+    text-align: left;
+  }
