@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7RL3M2R0NF"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-7RL3M2R0NF');
+	</script>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="れおまるのHeroWars <?=TITLE=>">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+
+	<meta name="keywords" content="柴犬れおまる, ヒーローウォーズモバイル, ヒーローウォーズ, Hero Wars Mobile, <?=TITLE=>">
+	<meta property="og:title" content="れおまるの Hero Wars Mobile ひまつぶし研究所 <?=TITLE=>">
+	<meta property="og:type" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+
+	<title>れおまるの Hero Wars Mobile <?=TITLE=> (ヒーローウォーズモバイル)</title>
+	<link rel="stylesheet" href="<?=ROOT=>/common/css/style.css?<?=TIMECODE=>">
+	
+</head>
+<body onload="onloadHandler();">
+	<script src="<?=ROOT=>/common/js/jquery.min.js"></script>
+	<script type="text/javascript">
+		function onloadHandler(){
+			onload();
+
+			let element = document.createElement("script");
+			element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5150525283742068";
+			element.crossOrigin = "anonymous";
+			document.getElementById('adsenseScript').appendChild(element);
+		}
+		
+	</script>
+
+	<header class="header">
+		<div class="preheader">
+			<div class="preheader-logo">
+				<a href="<?=ROOT=>/"><img src="<?=ROOT=>/common/img/topIcon.png" alt="Leomal's Hero Wars"></a>
+			</div>
+			<div class="support-btn" >
+				<a href="<?=ROOT=>/">れおまるの Hero Wars Mobile ひまつぶし研究所 <?=TITLE=></a>
+			</div>
+		</div>	
+	</header>
+
+	<main class="main">
+		<?=MAIN=>
+
+		<div id="ad-box">
+			<div id="adsenseScript"></div>
+			<!-- スクエアユニット -->
+			<ins class="adsbygoogle"
+			style="display:block"
+			data-ad-client="ca-pub-5150525283742068"
+			data-ad-slot="3799535200"
+			data-ad-format="auto"
+			data-full-width-responsive="true"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+	</main>
+
+	<div id="floatLinkMenu">
+		<div id="footerClose">
+			<img src="<?=ROOT=>/common/img/closeButton_32.png" onclick="closeLinkMenu();">
+		</div>
+		<div id="footerLink">
+			<ul>
+				<li><a href="<?=ROOT=>/">トップページ</a></li>
+	
+				<li><a href="<?=ROOT=>/events/">イベント開催履歴</a></li>
+				<li><a href="<?=ROOT=>/battlePass/">ヒーローの道計画</a></li>
+				<li><a href="<?=ROOT=>/goldRoulette/">ゴールドルーレット</a></li>
+	
+				<li><a href="<?=ROOT=>/hero_dev/heroStatus.php">ヒーローステータス</a></li>
+				<li><a href="<?=ROOT=>/hero/">アイテムコスト試算</a></li>
+				<li><a href="<?=ROOT=>/skillCost/">スキルコスト表</a></li>
+				<li><a href="<?=ROOT=>/skin/">スキン</a></li>
+				<li><a href="<?=ROOT=>/artifact/">アーティファクト</a></li>
+				<li><a href="<?=ROOT=>/glyph/">グリフ</a></li>
+				<li><a href="<?=ROOT=>/elementGift/">エレメントギフト</a></li>
+				<li><a href="<?=ROOT=>/heroLevel/">ヒーロー経験値表</a></li>
+				<li><a href="<?=ROOT=>/heroBattle/">ヒーローシミュレータ</a></li>
+	
+				<li><a href="<?=ROOT=>/hydra/">ヒドラ</a></li>
+				<li><a href="<?=ROOT=>/dungeon/">ダンジョン</a></li>
+				<li><a href="<?=ROOT=>/titanLevel/">タイタンレベル</a></li>
+				<li><a href="<?=ROOT=>/titanArtifact/">タイタンアーティファクト</a></li>
+				<li><a href="<?=ROOT=>/titanSkin/">タイタンスキン</a></li>
+				<li><a href="<?=ROOT=>/titanBattle/">タイタンシミュレータ</a></li>
+				
+			</ul>
+		</div>
+	</div>
+	
+	<footer class="footer">
+		<div id="footerMenu">
+			<div id="footer-menuButton" onclick="openLinkMenu();">
+				<img src="<?=ROOT=>/common/img/menuButton.png">
+				<span>サイトメニュー</span>
+			</div>
+			<div id="footer-text">
+				&copy; Nexters Global Limited All rights reserved.
+			</div>
+			<div class="BoxClear"></div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		let footerMenuLinkModal = document.getElementById('floatLinkMenu');
+		function openLinkMenu(){
+			if(footerMenuLinkModal.style.display == 'block'){
+				footerMenuLinkModal.style.display = 'none';
+			}
+			else{
+				footerMenuLinkModal.style.display = 'block';
+			}
+		}
+		function closeLinkMenu(){
+			footerMenuLinkModal.style.display = 'none';
+		}
+	</script>
+</body>
+</html>

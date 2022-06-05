@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+h1 {
+  padding: 0.5em;/*文字周りの余白*/
+  color: #ffffff;/*文字色*/
+  background: #3f3831;/*背景色*/
+  border-left: solid 8px #464781;/*左線（実線 太さ 色）*/
+  font-size:110%;
+}
+
+h2 {
+    font-size:100%;
+    color: #ffffff;
+    position: relative;
+    padding: 0.25em 0;
+}
+h2:after {
+    content: "";
+    display: block;
+    height: 4px;
+    background: -webkit-linear-gradient(to right, rgb(218, 199, 171), transparent);
+    background: linear-gradient(to right, rgb(218, 199, 171), transparent);
+}
+
+
+.battlePassMissionDailyArea{
+    width:45%;
+	float:left;
+    margin:0px 12px 20px 0px;
+    min-width:310px;
+}
+
+.battlePassMissionDailyTable{
+	border-collapse:  collapse;	
+    width:100%;
+    font-size:90%; 
+}
+.battlePassMissionDailyTable th {
+	border: solid 1px rgb(218, 204, 177);
+	
+	background-color: rgb(14, 14, 13);
+}
+.battlePassMissionDailyTable .now{
+	color:#75d3ff;
+}
+.battlePassMissionDailyTable .next{
+	color:#95ff75;
+}
+.battlePassMissionDailyTable .press{
+	font-size:120%;
+	color:#e5ff53;
+	font-weight:bold;
+}
+.battlePassMissionDailyTable td {
+	border: solid 1px rgb(218, 204, 177);
+	color:#ffffff;
+	background-color: rgb(53, 50, 48);
+    text-align:center;
+    padding:5px;
+    box-sizing:border-box;
+}
+
+
+
+.dataTableContainer{
+	margin:32px 0px 0px 0px;
+	width:100%;
+	overflow-x: auto;
+}
+
+.dataTableBox{
+	height:400px;
+	margin:0px 0px 50px 0px;
+	overflow-y: scroll;
+	overflow-x:hidden;
+}
+
+.dataTable{
+	border-collapse:  collapse;
+	margin:0px 0px 0px 0px;
+	font-size:80%;
+}
+.dataTable th {
+	border: solid 1px rgb(218, 204, 177);
+	color:#ffffff;
+	background-color: rgb(36, 14, 9);
+	padding:3px;
+    box-sizing:border-box;
+}
+.dataTable td {
+	border: solid 1px rgb(218, 204, 177);
+	color:#ffffff;
+	padding:3px;
+	text-align:center;
+    box-sizing:border-box;
+}
+.dataTable .oddCell{
+	background-color: rgb(68, 64, 61);
+}
+.dataTable .evenCell{
+	background-color: rgb(49, 45, 43);	
+}
+.dataTable .activeDay{
+	color:#e5ff00;
+	font-weight:bold;
+	background-color: rgb(14, 4, 48);
+}
+
+
+@media only screen and (max-height : 410px) {
+    .dataTableBox{
+		height:45vh;
+		margin:0px 0px 50px 0px;
+		overflow-y: scroll;
+		overflow-x:hidden;
+	}
+}

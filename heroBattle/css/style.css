@@ -1,0 +1,1597 @@
+@charset "UTF-8";
+
+h1 {
+    padding: 0.5em;/*文字周りの余白*/
+    color: #ffffff;/*文字色*/
+    background: #3f3831;/*背景色*/
+    border-left: solid 8px #464781;/*左線（実線 太さ 色）*/
+    font-size:110%;
+}
+
+/* メニューリスト */
+.headListArea{
+	margin:8px 0px 32px 0px;
+	width:100%;
+}
+
+#targetSwitch{
+	width:100%;
+}
+
+#targetSwitch ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	padding:0;
+}
+
+#targetSwitch li{
+	border: 1px solid #c5ae7d;
+	background-color: rgb(63, 60, 56);
+	margin:0px 12px 8px 0px;
+	padding:5px;
+	cursor:default;
+	list-style: none;
+	white-space: nowrap;
+	font-size:80%;
+}
+
+#targetSwitch li .active{
+	background-color: rgb(117, 113, 53);
+}
+
+#targetSwitch li a{
+	text-decoration: none;
+}
+
+/* チームスロット */
+#battle_team_box{
+	margin:16px 0px 0px 0px;
+	width:830px;
+}
+
+#battle_team_box .member_pos{
+	margin:18px 0px 0px 7px;
+}
+
+#battle_team_box .member_box{
+	float:left;
+	width:60px;
+	height:60px;
+	margin:0px 0px 0px 12px;
+	background-color: rgba(156, 145, 145, 0.1);
+}
+
+#own_team_list{
+	background-image: url("../../common/img/teamFrame.png");
+	background-position: left 0px top 0px;
+	background-repeat: no-repeat;
+	width:400px;
+	height:108px;
+	float:left;
+	position:relative;
+}
+
+#enemy_team_list{
+	background-image: url("../../common/img/teamFrame.png");
+	background-position: left 0px top 0px;
+	background-repeat: no-repeat;
+	width:400px;
+	height:108px;
+	float:right;
+	position:relative;
+}
+
+.team-power-view{
+	position:absolute;
+	top:-8px;
+	left:166px;
+	width:80px;
+	height:18px;
+	text-align:center;
+	background-color: rgba(22, 14, 14, 0.8);
+	color:#ffffff;
+	border: 3px solid rgb(197, 160, 113);
+	border-radius: 8px;
+}
+
+.team-dir-view{
+	position:absolute;
+	top:-8px;
+	left:140px;
+	width:18px;
+	height:18px;
+	text-align:center;
+	background-color: rgba(22, 14, 14, 0.8);
+	color:#ffffff;
+	border: 3px solid rgb(197, 160, 113);
+	border-radius: 8px;
+	cursor: pointer !important;
+}
+
+
+/* ヒーローリスト */
+#hero_team_list{
+	border: 1px solid #252525;
+	margin:16px 0px 20px 0px;
+	background-color: #303066;
+	width:840px;
+	overflow-y: scroll;
+}
+
+.hero_list_height{
+	height:340px;
+}
+
+.titan_list_height{
+	height:240px;
+}
+
+#hero_team_list ul{
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin:0px 0px 0px 0px;
+}
+
+#hero_team_list li{
+	margin:5px;
+	padding:5px;
+	width:70px;
+	cursor: default；
+}
+
+#hero_team_list li .heroImage{
+	margin:0px 0px 0px 5px;
+	width:60px;
+}
+
+#hero_team_list li .hero-avatar-image{
+	background-color: #302c2c;
+	width:58px;
+	height:58px;
+}
+
+#hero_team_list li .namePlate{
+	border: 2px solid #ffc70f;
+	background-color: #1a1a29;
+	color: #fcff62;
+	margin:0px 0px 0px 0px;
+	padding:3px;
+	width:60px;
+	font-size:70%;
+	cursor:default;
+}
+
+#hero_team_list li .namePlate a {	text-decoration:none; }
+#hero_team_list li .namePlate a:link { color: #ffffff; }
+#hero_team_list li .namePlate a:visited { color: #ffffff; }
+#hero_team_list li .namePlate a:hover { color: #fcff62; }
+#hero_team_list li .namePlate a:active { color: #fcff62; }
+
+
+.heroAvatorPos{
+	margin:3px 0px 0px 3px;
+}
+.heroAvatorPos_team{
+	margin:8px 0px 0px 8px;
+}
+
+.avatar-box{
+	position: relative;
+	width:60px;
+	height:70px;
+}
+
+.hero-frame{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:60px;
+	height:60px;
+}
+
+.level-disp{
+	position: absolute;
+	top:2px;
+	left:17px;
+	color:#ffffff;
+	font-size:80%;
+	width:25px;
+	text-align:center;
+}
+
+.star-disp{
+	position: absolute;
+	top:50px;
+	left:0px;
+	width:60px;
+}
+
+.avatar-box2{
+	position: relative;
+	width:70px;
+	height:75px;
+}
+
+.hero-frame2{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:70px;
+	height:70px;
+}
+
+.level-disp2{
+	position: absolute;
+	top:2px;
+	left:23px;
+	color:#ffffff;
+	font-size:80%;
+	width:25px;
+	text-align:center;
+}
+
+.star-disp2{
+	position: absolute;
+	top:55px;
+	left:0px;
+	width:70px;
+}
+
+
+/* 保存スロット */
+#customSaveArea{
+	width:820px;
+	margin:0px 0px 24px 0px;
+	border: 1px solid;
+	border-radius: 10px;
+	padding:6px;
+	background-color: rgb(23, 42, 82);
+}
+
+.customSaveButtonBox{
+	float:left;
+	width:120px;
+	margin:0px 10px 0px 6px;
+}
+
+.customSaveNameInput{
+	width:100px;
+}
+
+.customSaveButtonLayer{
+	padding:5px 0px 0px 0px;
+}
+
+
+
+
+.heroStatusTable{
+	width:260px;
+	font-size:90%;
+}
+
+.heroStatusTable th {
+	border: 0;
+    text-align:right;
+    width:115px;
+    color:rgb(196, 190, 118);
+    background: transparent;
+}
+.heroStatusTable td {
+	border: 0;
+    background: transparent;
+    text-align:right;
+}
+.heroStatusIndexColor{
+    color:rgb(196, 190, 118);
+    font-weight:bold;
+}
+
+.floatWinButtonArea{
+    margin:16px 0px 0px 0px;
+    width:300px;
+}
+.targetSetArea{
+    float:left;
+    margin:0px 16px 0px 0px;
+}
+.floatWinMenuArea{
+    margin:16px 0px 0px 0px;
+    width:300px;
+    text-align:center;
+}
+
+
+.heroSkillBoxFrame{
+    border:solid 1px rgb(117, 104, 74);
+    border-radius: 10px;
+    margin:0px 0px 5px 0px;
+    background-color: rgb(44, 42, 44);
+}
+.heroSkillBox{
+	position:relative;
+	width: 275px;
+	height: 78px;
+	margin:5px 0px 5px 5px;
+}
+
+.heroSkinBoxFrame{
+    border:solid 1px rgb(117, 104, 74);
+    border-radius: 10px;
+    margin:0px 0px 5px 0px;
+    background-color: rgb(44, 42, 44);
+    width: 250px;
+}
+.heroSkinBox{
+	position:relative;
+	width: 250px;
+	height: 78px;
+	margin:5px 0px 5px 5px;
+}
+
+.heroSkinDetailCol{
+	float:left;
+	width: 155px;
+	height: 90px;
+	margin:0px 0px 0px 5px;
+}
+
+.heroSkinLevelCustomArea{
+	width:150px;
+	height:30px;
+	margin:5px 0px 0px 0px;
+}
+
+.heroSkinIconCol{
+	float:left;
+	width: 90px;
+	height: 80px;
+	margin:0px 0px 0px 0px;
+}
+
+.heroSkinNameIndex{
+	width:160px;
+	height:18px;
+	font-size:100%;
+	color:#fae5b9;
+	margin:5px 0px 0px 0px;
+}
+
+.heroSkinStatusNameIndex{
+	width:160px;
+	height:18px;
+	font-size:80%;
+	color:#fae5b9;
+	margin:5px 0px 0px 0px;
+}
+
+.heroArtifactBoxArea{
+    border:solid 1px rgb(117, 104, 74);
+    border-radius: 10px;
+    background-color: rgb(44, 42, 44);
+    width:290px;
+    padding:8px;
+    margin:15px 0px 18px -8px;
+}
+
+.heroArtifactBox{
+	width:82px;
+	height:82px;
+	margin:5px 2px 0px 0px;
+	float:left;
+}
+
+.heroArtifactOverview{
+    margin:0px 0px 0px 0px;
+    float:left;
+}
+
+.heroArtifactController{
+    float:left;
+}
+
+.heroArtifactFrame{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+	position: absolute;
+	top:-1px;
+	left:-1px;
+	width:75px;
+	height:75px;
+}
+
+.heroArtifactStarDisp{
+	position: absolute;
+	top:55px;
+	left:-1px;
+	width:75px;
+}
+
+.heroArtifactLevelDisp{
+	position: absolute;
+	top:-10px;
+	left:17px;
+	color:#ffffff;
+	font-size:90%;
+	width:40px;
+	height:27px;
+	padding-top:5px;
+	text-align:center;
+	background-repeat: no-repeat;
+	background-position: left 0px top 0px;
+}
+
+
+
+.heroStatusBtnPos{
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+	margin:0px 5px 0px 5px;
+}
+
+.heroArtifactStatusArea{
+    height:55px;
+}
+
+.heroArtifactStatusArea > p {
+    margin:0px 0px 0px 0px;
+}
+
+.heroArtifactButtonArea{
+    margin:0px 0px 0px -5px;
+    height:30px;
+}
+
+.heroGlyphBox{
+    width:115px;
+    height:120px;
+    border:solid 1px rgb(117, 104, 74);
+    border-radius: 10px;
+    background-color: rgb(44, 42, 44);
+}
+.heroGlyphImage{
+    width:115px;
+    height:55px;
+    text-align: center;
+}
+.heroGlyphStatus{
+    width:115px;
+    height:35px;
+    text-align: center;
+}
+.heroGlyphController{
+    width:115px;
+    height:25px;
+    text-align: center;
+	font-size:90%;
+}
+
+.glyph0pos{
+    margin:0px 0px 0px 78px;
+}
+
+.glyph1pos{
+    margin:5px 0px 0px 40px;
+    float:left;
+}
+
+.glyph2pos{
+    margin:5px 0px 0px 8px;
+    float:left;
+}
+
+.glyph3pos{
+    margin:5px 0px 0px 16px;
+    float:left;
+}
+
+.glyph4pos{
+    margin:5px 0px 0px 0px;
+    float:left;
+}
+
+.elementLevel{
+    margin:5px 0px 0px 30px;
+    width:200px;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.elementIconArea{
+    margin:25px 0px 0px 5px;
+}
+
+.elementIconBox{
+    width:75px;
+    margin:0px 12px 0px 0px;    
+    float:left;
+    border:solid 1px rgb(117, 104, 74);
+    background-color: rgb(44, 42, 44);
+    border-radius: 10px;
+}
+
+.elementStatusName{
+    width:75px;
+    height:30px;
+    text-align: center;
+    font-weight:bold;
+    color:#f3ff8a;
+    margin:15px 0px 5px 0px;
+}
+
+.elementIcon{
+    width:75px;
+    height:55px;
+    text-align: center;
+}
+
+.elementStatus{
+    width:75px;
+    height:30px;
+    margin:5px 0px 5px 0px;
+    text-align: center;
+    font-weight:bold;
+}
+
+#floatStatus_modal{
+	position: fixed;
+    margin: 180px 0px 0px 145px;
+	z-index: 1;
+	/* left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.7); */
+}
+
+#floatStatus_content{
+    display: none;
+    position: absolute;
+	border:solid 1px rgb(117, 104, 74);
+    background-color: rgb(44, 42, 44);
+    border-radius: 10px;
+	width: 320px;
+	height: 420px;
+	color:#ffffff;
+	font-size:80%;
+}
+
+#floatStatus_tableArea{
+    margin:15px 0px 0px 0px;
+}
+
+.floatStatus_msgArea{
+    width:300px;
+    text-align:center;
+    margin:16px 0px 0px 0px;
+    color:#ddcc7f;
+}
+
+.drag-and-drop {
+    cursor: move;
+    position: absolute;
+    z-index: 1000;
+}
+
+.drag {
+    z-index: 1001;
+}
+
+.heroFloatStatusTable{
+	width:280px;
+}
+
+.heroFloatStatusTable th {
+	border: 0;
+    text-align:right;
+    width:135px;
+    color:rgb(196, 190, 118);
+    background: transparent;
+}
+.heroFloatStatusTable td {
+	border: 0;
+    background: transparent;
+    text-align:right;
+}
+
+.physical{
+    color:#ffb049;
+}
+
+.magic{
+    color:#e385ff;
+}
+
+.pure{
+    font-weight: bold;
+}
+
+#skillCheckArea{
+    display:none;
+    margin:12px 0px 0px 20px;
+}
+
+#resourceListArea{
+    width:100%;
+    height:350px;
+    overflow-y: auto;
+}
+
+#resourceList{
+    list-style: none;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#resourceList li{
+    width:42px;
+    padding: 3px;
+    margin: 3px;
+    background-color: #404042;
+    text-align:center;
+}
+
+#resourceList .black_bg{
+    background-color: #19191a;
+}
+
+#resourceList .white_bg{
+    background-color: #404042;
+}
+
+#resourceList .green_bg{
+    background-color: #163001;
+}
+
+#resourceList .blue_bg{
+    background-color: #010136;
+}
+
+#resourceList .violet_bg{
+    background-color: #310135;
+}
+
+#resourceList .orange_bg{
+    background-color: #332702;
+}
+
+.resourceTitleHeader{
+    width:380px;
+    background-color: #420b20;
+    border: 2px solid rgb(197, 160, 113);
+	border-radius: 4px;
+    height:22px;
+    padding:3px 0px 3px 8px;
+    font-weight:bold;
+    margin:0px 0px 8px 0px;
+}
+
+.resourceInfoTable{
+    margin:0px 0px 12px 0px;
+    border: 3px solid rgb(197, 160, 113);
+}
+
+.resourceInfoTable th {
+    border: 2px solid rgb(10, 6, 0);
+    text-align:center;
+    color:rgb(196, 190, 118);
+    background-color: #420b20;
+}
+.resourceInfoTable td {
+    border: 2px solid rgb(10, 6, 0);
+    background-color: #18020a;
+    color:white;
+    text-align:center;
+}
+
+.resourceLeftBox{
+    width:390px;
+    margin:0px 16px 0px 0px;
+    float:left;
+}
+.resourceRightBox{
+    width:340px;
+    margin:0px 0px 0px 0px;
+    float:left;
+}
+
+.resourceStageHeader{
+    width:330px;
+    background-color: #420b20;
+    border: 2px solid rgb(197, 160, 113);
+	border-radius: 4px;
+    height:22px;
+    padding:3px 0px 3px 8px;
+    font-weight:bold;
+    margin:0px 0px 8px 0px;
+}
+
+.resourceStageListArea{
+    width:340px;
+    height:310px;
+    overflow-y: auto;
+}
+
+.stuffBox{
+    width:310px;
+    border: 1px solid rgb(197, 160, 113);
+    margin: 0px 0px 8px 0px;
+    padding:4px;
+}
+
+.stuffBox img{
+    border: 1px solid rgb(158, 140, 137);
+    margin:0px 3px 0px 0px;
+}
+
+.stuffSubBox{
+    margin:0px 0px 3px 18px;
+}
+
+.customButtonArea{
+    float:right;
+}
+
+.energyCustomArea{
+    margin:36px 0px 0px 32px;
+}
+
+.caption_press{
+	font-size:135%;
+	margin:0px 0px 0px 0px;
+    text-align:center;
+    border: 2px solid #5bcbff;
+	background-color: #131c46;
+    padding:5px;
+    width:682px;
+}
+
+.txt-violet{
+	border: 0px;
+	margin:0;
+	color:#e57bff;
+}
+
+.txt-green{
+	border: 0px;
+	margin:0;
+	color:#95ff75;
+}
+
+.txt-blue{
+	border: 0px;
+	margin:0;
+	color:#6cbdff;
+}
+
+.energy-list-total{
+	border: 2px solid #5bcbff;
+	background-color: #131c46;
+}
+
+.energy-list-each{
+	border: 1px solid #5bcbff;
+	background-color: #575757;
+}
+
+.energyListArea{
+    height:275px;
+    overflow-y: auto;
+}
+
+#energy-list{
+	margin:2px 0px 12px 0px;
+}
+
+#energy-list td{
+	padding:10px;
+	background-color: transparent;
+}
+
+#energy-list .energy-title{
+	text-align:left;
+}
+
+#energy-list .emerald-cell{
+	background-image: url("../../common/img/emerald_s.png");
+	background-position: left 5px top 50%;
+	background-repeat: no-repeat;
+	text-align:left;
+	padding:0px 0px 0px 30px;
+}
+
+#energy-list .enegy-cell{
+	background-image: url("../../common/img/energy_s.png");
+	background-position: left 5px top 50%;
+	background-repeat: no-repeat;
+	text-align:left;
+	padding:0px 0px 0px 30px;
+}
+
+#energy-list .gold-cell{
+	background-image: url("../../common/img/gold_s.png");
+	background-position: left 5px top 50%;
+	background-repeat: no-repeat;
+	text-align:left;
+	padding:0px 0px 0px 30px;
+}
+
+#energy-list .btnPos{
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+	margin:0px 5px 0px 5px;
+}
+
+
+/* ヒーロー設定ウィンドウ */
+.hero_custom_modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.hero_custom_modal .btnPos{
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+	margin:0px 5px 0px 5px;
+}
+
+.hero_custom_modal #tabMenu{
+	float:left;
+	width: 134px;
+	height: 462px;
+	font-size:90%;
+}
+
+.hero_custom_modal #tabMenu .tabHead{
+	width: 134px;
+	height: 54px;
+	margin-top: 40px;
+	color:#ffe9c7;
+	font-size:80%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	cursor:default;
+}
+.hero_custom_modal #tabMenu .tabLow{
+	width: 134px;
+	height: 54px;
+	margin-top: 8px;
+	color:#ffe9c7;
+	font-size:80%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	cursor:default;
+}
+
+.hero_custom_modal #tabMenu .tabDefault{
+	background-image: url("../../heroBattle/img/default_tab.png");
+	background-repeat: no-repeat;
+}
+
+.hero_custom_modal #tabMenu .tabActive{
+	background-image: url("../../heroBattle/img/active_tab.png");
+	background-repeat: no-repeat;
+}
+
+.hero_custom_modal #tabMenu .heroTabHead{
+	width: 134px;
+	height: 36px;
+	margin-top: 30px;
+	color:#ffe9c7;
+	font-size:80%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	cursor:default;
+}
+.hero_custom_modal #tabMenu .heroTabLow{
+	width: 134px;
+	height: 36px;
+	margin-top: 6px;
+	color:#ffe9c7;
+	font-size:80%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	cursor:default;
+}
+
+.hero_custom_modal #tabMenu .heroTabDefault{
+	background-image: url("../../heroBattle/img/hero_default_tab.png");
+	background-repeat: no-repeat;
+}
+
+.hero_custom_modal #tabMenu .heroTabActive{
+	background-image: url("../../heroBattle/img/hero_active_tab.png");
+	background-repeat: no-repeat;
+}
+
+.hero_custom_modal #tabMenu #configUIarea{
+	margin:25px 0px 0px 10px;
+}
+
+.hero_custom_modal #tabMenu #configUIarea #pageMoveButtonArea{
+	margin:0px 0px 16px 8px;
+}
+
+.hero_custom_modal #tabMenu #configUIarea .pageMoveButtonBox{
+	float:left;
+	width: 30px;
+	height: 50px;
+	margin:0px 12px 0px 0px;
+}
+
+
+.hero_custom_content{
+	background-image: url("../../heroBattle/img/hero_custom_bg.png");
+	background-repeat: no-repeat;
+	width: 840px;
+	height: 462px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+	color:#ffffff;
+}
+
+.hero_custom_content #detailArea{
+	float:left;
+	width: 306px;
+	height: 462px;
+}
+
+.hero_custom_content #detailArea #detailContent{
+	width: 290px;
+	height: 395px;
+	margin:38px 0px 0px 8px;
+	overflow-y: auto;
+	overflow-x:hidden;
+}
+
+.hero_custom_content #screenArea{
+	float:left;
+	width: 400px;
+	height: 462px;
+}
+
+.hero_custom_content #screenArea .nameLabel{
+	float:left;
+	margin:4px 0px 0px 48px;
+	width:296px;
+	height:52px;
+
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	cursor:default;
+
+	
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.hero_custom_content #screenArea .whiteLabel{
+	background-image: url("../../heroBattle/img/nameLabel_white.png");
+	background-repeat: no-repeat;
+	background-position: left 0px top 8px;
+}
+.hero_custom_content #screenArea .greenLabel{
+	background-image: url("../../heroBattle/img/nameLabel_green.png");
+	background-repeat: no-repeat;
+	background-position: left 0px top 8px;
+}
+.hero_custom_content #screenArea .blueLabel{
+	background-image: url("../../heroBattle/img/nameLabel_blue.png");
+	background-repeat: no-repeat;
+	background-position: left 0px top 8px;
+}
+.hero_custom_content #screenArea .violetLabel{
+	background-image: url("../../heroBattle/img/nameLabel_violet.png");
+	background-repeat: no-repeat;
+	background-position: left 0px top 8px;
+}
+.hero_custom_content #screenArea .orangeLabel{
+	background-image: url("../../heroBattle/img/nameLabel_orange.png");
+	background-repeat: no-repeat;
+	background-position: left 0px top 8px;
+}
+
+.hero_custom_content #screenArea #closeBtn{
+	float:left;
+	margin:2px 0px 0px 11px;
+	width:45px;
+	height:45px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.hero_custom_content #screenArea #heroImage{
+	background-image: url("../../hero/img/001_Default_Skin.png");
+	background-repeat: no-repeat;
+	background-position: left 0px top 8px;
+	width:382px;
+	height:275px;
+}
+
+.hero_custom_content #screenArea #heroImage .itemBox{
+	width:75px;
+	height:75px;
+	margin:0px 0px 3px 0px;
+}
+
+.hero_custom_content #screenArea #heroImage #itemLeft{
+	float:left;
+	margin:15px 0px 0px 3px;
+	width:80px;
+	height:260px;
+}
+.hero_custom_content #screenArea #heroImage #itemCenter{
+	float:left;
+	width:210px;
+}
+
+.hero_custom_content #screenArea #heroImage #itemCenter #infoBtnArea{
+	width:30px;
+	height:30px;
+	margin:20px 0px 0px 175px;
+}
+
+.hero_custom_content #screenArea #heroImage #itemCenter #colorArea{
+	width:150px;
+	height:35px;
+	background-color: #5c9831;
+	border: 3px solid rgb(197, 160, 113);
+	border-radius: 10px;
+	margin:145px 0px 0px 25px;
+}
+
+.hero_custom_content #screenArea #heroImage #itemCenter #colorArea .color_down{
+	float:left;
+	margin:8px 0px 0px 6px;
+}
+.hero_custom_content #screenArea #heroImage #itemCenter #colorArea .color_text{
+	float:left;
+	color:#fff4d2;
+	margin:8px 0px 0px 0px;
+    font-size:12px;
+}
+.hero_custom_content #screenArea #heroImage #itemCenter #colorArea .color_up{
+	float:left;
+	margin:8px 0px 0px 0px;
+}
+
+.hero_custom_content #screenArea #heroImage #itemRight{
+	float:left;
+	margin:10px 0px 0px 7px;
+	width:80px;
+	height:260px;
+}
+
+.hero_custom_content #screenArea #obtainArea{
+	float:left;
+	width:275px;
+}
+
+.hero_custom_content #screenArea #obtainArea #expArea{
+	margin:18px 0px 0px 75px;
+	height:45px;
+}
+.hero_custom_content #screenArea #obtainArea #soulArea{
+	margin:5px 0px 0px 75px;
+	height:55px;
+}
+
+.hero_custom_content #screenArea #obtainArea #soulArea #starDisp{
+	display: inline-block;
+	width: 37px;
+	text-align:center;
+	font-weight:bold;
+	font-size:120%;
+}
+
+.hero_custom_content #screenArea #obtainArea #expArea .valueDisp{
+	display: inline-block;
+	width: 37px;
+	text-align:center;
+	font-weight:bold;
+	font-size:120%;
+}
+
+.hero_custom_content #screenArea #powerArea{
+	float:left;
+	width:100px;
+	height:100px;
+}
+
+.hero_custom_content #screenArea #powerArea #powerView{
+	margin:82px 0px 0px 15px;
+	width:70px;
+	text-align:center;
+}
+
+.avatarBox {
+    position: relative;
+}
+.avatar {
+	width:40px;
+	height:40px;
+    transform: translate(1px,2px);
+}
+.skillAvatar {
+	width:80px;
+	height:80px;
+    transform: translate(1px,2px);
+}
+.avatarFrame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+#screenArea #heroImage #starArea{
+	width:155px;
+	height:40px;
+	top: -15px;
+	left: 115px;
+	position: absolute;
+}
+
+#screenArea #heroImageBox #starArea{
+	width:155px;
+	height:40px;
+	top: -15px;
+	left: 115px;
+	position: absolute;
+}
+
+#screenArea #heroImageBox #skillArea{
+	width:380px;
+	height:120px;
+	top: 190px;
+	left: 5px;
+	bottom: 0;
+	position: absolute;
+}
+
+/* スキルウィンドウ */
+#heroSkillArea{
+	position:relative;
+	width: 275px;
+	padding:10px 0px 0px 0px;
+	font-size:80%;
+}
+
+.skillBox{
+	position:relative;
+	width: 275px;
+	height: 85px;
+	margin:5px 0px 5px 0px;
+}
+.skillIconCol{
+	float:left;
+	width: 90px;
+	height: 90px;
+	margin:0px 0px 0px 0px;
+}
+.skillDetailCol{
+	float:left;
+	width: 170px;
+	height: 90px;
+	margin:0px 0px 0px 5px;
+}
+.skillNameIndex{
+	width:170px;
+	height:30px;
+	font-weight:bold;
+	font-size:110%;
+	color:#fae5b9;
+	margin:5px 0px 0px 0px;
+}
+.skillLevelCustomArea{
+	width:170px;
+	height:50px;
+	margin:5px 0px 0px 0px;
+}
+.indexColor{
+	color:#fae5b9;
+}
+.skillLevelDisp{
+	display: inline-block;
+	width: 37px;
+	text-align:center;
+	font-weight:bold;
+	font-size:120%;
+}
+.skillLockIcon{
+	width:24px;
+	height:35px;
+	vertical-align:middle;
+	margin:0px 5px 0px 5px;
+}
+.skinNameIndex{
+	width:200px;
+	height:18px;
+	font-size:100%;
+	color:#fae5b9;
+	margin:5px 0px 0px 0px;
+}
+.skinStatusAdd{
+	color:#e5ff53;
+	font-weight:bold;
+}
+.skinLevelDisp{
+	display: inline-block;
+	width: 55px;
+	text-align:center;
+	font-weight:bold;
+	font-size:120%;
+}
+
+
+
+/* リソース情報ウィンドウ */
+.resource_modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.resource_content{
+	background-image: url("../../common/img/resourceInfo.png");
+	background-repeat: no-repeat;
+	width: 840px;
+	height: 462px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+	color:#ffffff;
+}
+
+.resource_content #resourceArea{
+	float:left;
+	margin:2px 0px 0px 23px;
+	width:760px;
+	height:462px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.resource_content #resourcePotionArea{
+	width:700px;
+	padding:6px 6px 6px 18px;
+	margin:6px;
+	border: 1px solid #8dfbff;
+}
+
+.resource_content #resourceArea #resourceInfo{
+	margin:45px 0px 0px 10px;
+}
+
+.resourceTable{
+	border-collapse:  collapse;
+	width:725px;
+	font-size:90%;
+	margin:6px;
+}
+.resourceTable th {
+	border: solid 1px rgb(211, 118, 255);
+	color:#fef8ff;
+	background-color: rgb(19, 1, 22);
+}
+	
+.resourceTable td {
+	border: solid 1px rgb(211, 118, 255);
+	color:#f8ebff;
+	background-color: rgb(47, 39, 53);
+}
+
+
+/* コンタクト/データJSONウィンドウ */
+.dataJSON_modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.contact_modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.general_modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.general_content{
+	background-image: url("../../common/img/resourceInfo.png");
+	background-repeat: no-repeat;
+	width: 840px;
+	height: 462px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+	color:#ffffff;
+}
+
+.general_content #generalArea{
+	float:left;
+	margin:2px 0px 0px 23px;
+	width:760px;
+	height:462px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.general_content #generalCloseBtn{
+	float:left;
+	margin:2px 0px 0px 11px;
+	width:45px;
+	height:45px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.resource_content #resourceCloseBtn{
+	float:left;
+	margin:2px 0px 0px 11px;
+	width:45px;
+	height:45px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.resource_content #dataCodeCloseBtn{
+	float:left;
+	margin:2px 0px 0px 11px;
+	width:45px;
+	height:45px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.resource_content #contactCloseBtn{
+	float:left;
+	margin:2px 0px 0px 11px;
+	width:45px;
+	height:45px;
+	background-color: rgba(255, 251, 23, 0);
+}
+
+.resource_content #dataCodeArea{
+	float:left;
+	margin:2px 0px 0px 23px;
+	width:760px;
+	height:462px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+.resource_content #contactArea{
+	float:left;
+	margin:2px 0px 0px 23px;
+	width:760px;
+	height:462px;
+	background-color: rgba(133, 108, 75, 0);
+}
+
+#dataCodeIndex{
+	width:720px;
+	margin:50px 0px 0px 20px;
+}
+#dataCodeForm{
+	width:720px;
+	height:250px;
+	margin:16px 0px 0px 20px;
+	padding:10px;
+	border: 1px solid rgb(243, 255, 174);
+	overflow-wrap:break-word;
+	overflow-y: auto;
+}
+#dataCodeButton{
+	width:720px;
+	margin:16px 0px 0px 20px;
+}
+
+.flipHorizon{
+	transform: scale(-1, 1);
+}
+.greyDown{
+	filter: brightness(40%);
+}
+.greyScale{
+	-webkit-filter: sepia(100%) brightness(40%);
+	-moz-filter: sepia(100%) brightness(40%);
+	-ms-filter: sepia(100%) brightness(40%);
+	-o-filter: sepia(100%) brightness(40%);
+	filter: sepia(100%) brightness(40%);
+}
+
+
+
+
+.responsiveContainer{
+	overflow-x: auto;
+}
+.responsiveArea{
+	width:100%;
+	height:100vh;
+	transform-origin: top left;
+	transform: scale(1);
+}
+.responsiveModalArea{
+	width:100%;
+	height:100vh;
+	transform-origin: top left;
+	transform: scale(1);
+}
+
+@media only screen and (max-width : 1650px) {
+
+}
+
+@media only screen and (max-width : 1400px) {
+
+}
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 1080px) {
+
+}
+
+@media only screen and (max-width : 955px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.95);
+	}
+}
+
+@media only screen and (max-width : 910px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.9);
+	}
+}
+
+@media only screen and (max-width : 880px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.85);
+	}
+}
+
+@media only screen and (max-width : 835px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.8);
+	}
+}
+
+@media only screen and (max-width : 760px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.7);
+	}
+}
+
+@media only screen and (max-width : 670px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.6);
+	}
+}
+
+@media only screen and (max-width : 585px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.5);
+	}
+}
+
+@media only screen and (max-width : 500px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.4);
+	}
+}
+
+@media only screen and (max-width : 410px) {
+	.responsiveArea{
+		transform-origin: top left;
+		transform: scale(0.35);
+	}
+}
+
+
+
+
+
+@media (max-width : 730px) and (orientation: landscape){
+	.responsiveModalArea{
+		transform-origin: 50% 39%;
+		transform: scale(0.5);
+	}
+}
+
+@media (max-width : 700px) and (orientation: landscape){
+	.responsiveModalArea{
+		transform-origin: 50% 39%;
+		transform: scale(0.4);
+	}
+}
+
+@media (max-width : 410px) and (orientation: portrait){
+	.responsiveModalArea{
+		transform-origin: 5% 10%;
+		transform: scale(0.42);
+	}
+}
+
+@media (max-width : 370px) and (orientation: portrait){
+	.responsiveModalArea{
+		transform-origin: 10% 15%;
+		transform: scale(0.36);
+	}
+}

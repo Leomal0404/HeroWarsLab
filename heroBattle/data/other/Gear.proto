@@ -1,0 +1,3264 @@
+[[	1	]]
+[BattleStatData]
+PhysicalAttack	12
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1000
+SellCost	pseudo	2	200
+TeamLevel	1
+HeroLevel	1
+AssetTexture	gear_6
+[[End]]
+[[	2	]]
+[BattleStatData]
+Hp	200
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1000
+SellCost	pseudo	2	200
+TeamLevel	1
+HeroLevel	1
+AssetTexture	gear_8
+[[End]]
+[[	3	]]
+[BattleStatData]
+Agility	5
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1000
+SellCost	pseudo	2	200
+TeamLevel	2
+HeroLevel	2
+AssetTexture	gear_5
+[[End]]
+[[	4	]]
+[BattleStatData]
+Intelligence	5
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1000
+SellCost	pseudo	2	200
+TeamLevel	2
+HeroLevel	2
+AssetTexture	gear_2
+[[End]]
+[[	5	]]
+[BattleStatData]
+Strength	5
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1000
+SellCost	pseudo	2	200
+TeamLevel	2
+HeroLevel	2
+AssetTexture	gear_10
+[[End]]
+[[	6	]]
+[BattleStatData]
+Intelligence	5
+Agility	5
+Strength	5
+[End]
+[CraftRecipe]
+Cost	pseudo	2	3750
+GearRecipe	3	1	4	1	5	1
+ScrollRecipe
+[End]
+EnchantValue	6
+Color	1
+BuyCost	pseudo	2	3125
+SellCost	pseudo	2	625
+TeamLevel	3
+HeroLevel	3
+AssetTexture	gear_11
+[[End]]
+[[	7	]]
+[BattleStatData]
+MagicPower	25
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1000
+SellCost	pseudo	2	200
+TeamLevel	1
+HeroLevel	1
+AssetTexture	gear_12
+[[End]]
+[[	8	]]
+[BattleStatData]
+Armor	25
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1000
+SellCost	pseudo	2	200
+TeamLevel	1
+HeroLevel	1
+AssetTexture	gear_3
+[[End]]
+[[	9	]]
+[BattleStatData]
+MagicResist	25
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1000
+SellCost	pseudo	2	200
+TeamLevel	1
+HeroLevel	1
+AssetTexture	gear_9
+[[End]]
+[[	10	]]
+[BattleStatData]
+Intelligence	1
+Agility	1
+Strength	5
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1250
+SellCost	pseudo	2	250
+TeamLevel	5
+HeroLevel	5
+AssetTexture	gear_13
+[[End]]
+[[	11	]]
+[BattleStatData]
+Intelligence	5
+Agility	1
+Strength	1
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1250
+SellCost	pseudo	2	250
+TeamLevel	5
+HeroLevel	5
+AssetTexture	gear_7
+[[End]]
+[[	12	]]
+[BattleStatData]
+Intelligence	1
+Agility	5
+Strength	1
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1250
+SellCost	pseudo	2	250
+TeamLevel	5
+HeroLevel	5
+AssetTexture	gear_4
+[[End]]
+[[	13	]]
+[BattleStatData]
+Hp	385
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1250
+SellCost	pseudo	2	250
+TeamLevel	3
+HeroLevel	3
+AssetTexture	gear_16
+[[End]]
+[[	14	]]
+[BattleStatData]
+PhysicalAttack	25
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1250
+SellCost	pseudo	2	250
+TeamLevel	3
+HeroLevel	3
+AssetTexture	gear_1
+[[End]]
+[[	15	]]
+[BattleStatData]
+Strength	7
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1250
+BuySpecialCost	100
+SellCost	pseudo	2	250
+TeamLevel	3
+HeroLevel	3
+AssetTexture	gear_14
+[[End]]
+[[	16	]]
+[BattleStatData]
+Intelligence	7
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1250
+SellCost	pseudo	2	250
+TeamLevel	3
+HeroLevel	3
+AssetTexture	gear_18
+[[End]]
+[[	17	]]
+[BattleStatData]
+Agility	7
+[End]
+EnchantValue	2
+Color	1
+BuyCost	pseudo	2	1250
+SellCost	pseudo	2	250
+TeamLevel	3
+HeroLevel	3
+AssetTexture	gear_19
+[[End]]
+[[	18	]]
+[BattleStatData]
+Strength	7
+Hp	385
+[End]
+[CraftRecipe]
+Cost	pseudo	2	4500
+GearRecipe	13	1	15	1
+ScrollRecipe
+[End]
+EnchantValue	4
+Color	1
+BuyCost	pseudo	2	2650
+SellCost	pseudo	2	530
+TeamLevel	4
+HeroLevel	4
+AssetTexture	gear_20
+[[End]]
+[[	19	]]
+[BattleStatData]
+Intelligence	7
+MagicPower	50
+[End]
+[CraftRecipe]
+Cost	pseudo	2	4500
+GearRecipe	16	1	7	2
+ScrollRecipe
+[End]
+EnchantValue	6
+Color	1
+BuyCost	pseudo	2	3400
+SellCost	pseudo	2	680
+TeamLevel	4
+HeroLevel	4
+AssetTexture	gear_15
+[[End]]
+[[	20	]]
+[BattleStatData]
+Agility	7
+PhysicalAttack	25
+[End]
+[CraftRecipe]
+Cost	pseudo	2	4500
+GearRecipe	17	1	14	1
+ScrollRecipe
+[End]
+EnchantValue	4
+Color	1
+BuyCost	pseudo	2	2650
+SellCost	pseudo	2	530
+TeamLevel	4
+HeroLevel	4
+AssetTexture	gear_17
+[[End]]
+[[	21	]]
+[BattleStatData]
+Strength	10
+[End]
+EnchantMultiplier	2
+EnchantValue	3
+Color	2
+BuyCost	pseudo	2	1500
+SellCost	pseudo	2	300
+TeamLevel	12
+HeroLevel	12
+AssetTexture	gear_34
+[[End]]
+[[	22	]]
+[BattleStatData]
+Intelligence	10
+[End]
+EnchantMultiplier	2
+EnchantValue	3
+Color	2
+BuyCost	pseudo	2	1500
+SellCost	pseudo	2	300
+TeamLevel	12
+HeroLevel	12
+AssetTexture	gear_44
+[[End]]
+[[	23	]]
+[BattleStatData]
+Agility	10
+[End]
+EnchantMultiplier	2
+EnchantValue	3
+Color	2
+BuyCost	pseudo	2	1500
+SellCost	pseudo	2	300
+TeamLevel	12
+HeroLevel	12
+AssetTexture	gear_38
+[[End]]
+[[	24	]]
+[BattleStatData]
+Hp	500
+[End]
+EnchantMultiplier	2
+EnchantValue	3
+Color	2
+BuyCost	pseudo	2	1500
+SellCost	pseudo	2	300
+TeamLevel	10
+HeroLevel	10
+AssetTexture	gear_36
+[[End]]
+[[	25	]]
+[BattleStatData]
+PhysicalAttack	33
+[End]
+EnchantMultiplier	2
+EnchantValue	3
+Color	2
+BuyCost	pseudo	2	1500
+SellCost	pseudo	2	300
+TeamLevel	10
+HeroLevel	10
+AssetTexture	gear_22
+[[End]]
+[[	26	]]
+[BattleStatData]
+MagicPower	50
+[End]
+EnchantMultiplier	2
+EnchantValue	3
+Color	2
+BuyCost	pseudo	2	1500
+SellCost	pseudo	2	300
+TeamLevel	10
+HeroLevel	10
+AssetTexture	gear_30
+[[End]]
+[[	27	]]
+[BattleStatData]
+Armor	50
+[End]
+EnchantMultiplier	2
+EnchantValue	3
+Color	2
+BuyCost	pseudo	2	1500
+SellCost	pseudo	2	300
+TeamLevel	10
+HeroLevel	10
+AssetTexture	gear_28
+[[End]]
+[[	28	]]
+[BattleStatData]
+MagicResist	50
+[End]
+EnchantMultiplier	2
+EnchantValue	3
+Color	2
+BuyCost	pseudo	2	1500
+SellCost	pseudo	2	300
+TeamLevel	10
+HeroLevel	10
+AssetTexture	gear_32
+[[End]]
+[[	29	]]
+[BattleStatData]
+PhysicalCritChance	15
+[End]
+EnchantMultiplier	2
+EnchantValue	3
+Color	2
+BuyCost	pseudo	2	1500
+SellCost	pseudo	2	300
+TeamLevel	24
+HeroLevel	24
+AssetTexture	gear_54
+[[End]]
+[[	30	]]
+[BattleStatData]
+Dodge	15
+[End]
+EnchantMultiplier	2
+EnchantValue	3
+Color	2
+BuyCost	pseudo	2	1500
+SellCost	pseudo	2	300
+TeamLevel	24
+HeroLevel	24
+AssetTexture	gear_43
+[[End]]
+[[	31	]]
+[BattleStatData]
+ArmorPenetration	50
+[End]
+EnchantMultiplier	2
+EnchantValue	3
+Color	2
+BuyCost	pseudo	2	1500
+SellCost	pseudo	2	300
+TeamLevel	24
+HeroLevel	24
+AssetTexture	gear_26
+[[End]]
+[[	32	]]
+[BattleStatData]
+MagicPenetration	50
+[End]
+EnchantMultiplier	2
+EnchantValue	3
+Color	2
+BuyCost	pseudo	2	1500
+SellCost	pseudo	2	300
+TeamLevel	24
+HeroLevel	24
+AssetTexture	gear_35
+[[End]]
+[[	33	]]
+[BattleStatData]
+Intelligence	5
+Agility	5
+Strength	12
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	6	1	15	1
+ScrollRecipe
+[End]
+EnchantMultiplier	2
+EnchantValue	8
+Color	2
+BuyCost	pseudo	2	4825
+SellCost	pseudo	2	965
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_25
+[[End]]
+[[	34	]]
+[BattleStatData]
+Intelligence	12
+Agility	5
+Strength	5
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	16	1	6	1
+ScrollRecipe
+[End]
+EnchantMultiplier	2
+EnchantValue	8
+Color	2
+BuyCost	pseudo	2	4825
+SellCost	pseudo	2	965
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_45
+[[End]]
+[[	35	]]
+[BattleStatData]
+Intelligence	5
+Agility	12
+Strength	5
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	17	1	6	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	8
+Color	2
+BuyCost	pseudo	2	4825
+SellCost	pseudo	2	965
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_27
+[[End]]
+[[	36	]]
+[BattleStatData]
+Strength	10
+Hp	500
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	24	1	21	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	6
+Color	2
+BuyCost	pseudo	2	3450
+SellCost	pseudo	2	690
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_52
+[[End]]
+[[	37	]]
+[BattleStatData]
+Strength	10
+Armor	50
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	21	1	27	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	6
+Color	2
+BuyCost	pseudo	2	3450
+SellCost	pseudo	2	690
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_42
+[[End]]
+[[	38	]]
+[BattleStatData]
+Agility	10
+PhysicalAttack	33
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	25	1	23	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	6
+Color	2
+BuyCost	pseudo	2	3450
+SellCost	pseudo	2	690
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_41
+[[End]]
+[[	39	]]
+[BattleStatData]
+Agility	10
+MagicResist	50
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	28	1	23	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	6
+Color	2
+BuyCost	pseudo	2	3450
+SellCost	pseudo	2	690
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_39
+[[End]]
+[[	40	]]
+[BattleStatData]
+Intelligence	10
+MagicPower	50
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	22	1	26	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	6
+Color	2
+BuyCost	pseudo	2	3450
+SellCost	pseudo	2	690
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_31
+[[End]]
+[[	41	]]
+[BattleStatData]
+Intelligence	10
+Armor	50
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	22	1	27	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	6
+Color	2
+BuyCost	pseudo	2	3450
+SellCost	pseudo	2	690
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_23
+[[End]]
+[[	42	]]
+[BattleStatData]
+Hp	500
+PhysicalAttack	33
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	24	1	25	1
+ScrollRecipe	141	1
+[End]
+EnchantMultiplier	1
+EnchantValue	8
+Color	2
+BuyCost	pseudo	2	4450
+SellCost	pseudo	2	890
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_48
+[[End]]
+[[	43	]]
+[BattleStatData]
+PhysicalAttack	33
+Armor	50
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	25	1	27	1
+ScrollRecipe	142	1
+[End]
+EnchantMultiplier	1
+EnchantValue	8
+Color	2
+BuyCost	pseudo	2	4450
+SellCost	pseudo	2	890
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_21
+[[End]]
+[[	44	]]
+[BattleStatData]
+Armor	50
+MagicResist	50
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	28	1	27	1
+ScrollRecipe	143	1
+[End]
+EnchantMultiplier	1
+EnchantValue	8
+Color	2
+BuyCost	pseudo	2	4450
+SellCost	pseudo	2	890
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_50
+[[End]]
+[[	45	]]
+[BattleStatData]
+MagicPower	50
+MagicResist	50
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	28	1	26	1
+ScrollRecipe	144	1
+[End]
+EnchantMultiplier	1
+EnchantValue	8
+Color	2
+BuyCost	pseudo	2	4450
+SellCost	pseudo	2	890
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_24
+[[End]]
+[[	46	]]
+[BattleStatData]
+Hp	500
+MagicPower	50
+[End]
+[CraftRecipe]
+Cost	pseudo	2	13500
+GearRecipe	24	1	26	1
+ScrollRecipe	145	1
+[End]
+EnchantMultiplier	1
+EnchantValue	8
+Color	2
+BuyCost	pseudo	2	4450
+SellCost	pseudo	2	890
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_46
+[[End]]
+[[	47	]]
+[BattleStatData]
+Strength	15
+Hp	420
+PhysicalAttack	28
+Armor	42
+[End]
+EnchantMultiplier	1
+EnchantValue	10
+FragmentEnchantValue	2
+Color	2
+[FragmentMerge]
+Count	5
+Cost	pseudo	2	22500
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+BuyCost	pseudo	2	4500
+SellCost	pseudo	2	900
+TeamLevel	24
+HeroLevel	24
+AssetTexture	gear_47
+[[End]]
+[[	48	]]
+[BattleStatData]
+Intelligence	15
+MagicPower	84
+MagicResist	42
+[End]
+EnchantMultiplier	1
+EnchantValue	10
+FragmentEnchantValue	2
+Color	2
+[FragmentMerge]
+Count	5
+Cost	pseudo	2	22500
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+BuyCost	pseudo	2	4500
+SellCost	pseudo	2	900
+TeamLevel	24
+HeroLevel	24
+AssetTexture	gear_40
+[[End]]
+[[	49	]]
+[BattleStatData]
+Intelligence	22
+PhysicalAttack	28
+Armor	42
+[End]
+EnchantMultiplier	1
+EnchantValue	10
+FragmentEnchantValue	2
+Color	2
+[FragmentMerge]
+Count	5
+Cost	pseudo	2	22500
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+BuyCost	pseudo	2	4500
+SellCost	pseudo	2	900
+TeamLevel	24
+HeroLevel	24
+AssetTexture	gear_49
+[[End]]
+[[	50	]]
+[BattleStatData]
+Agility	15
+PhysicalAttack	56
+MagicResist	42
+[End]
+EnchantMultiplier	1
+EnchantValue	10
+FragmentEnchantValue	2
+Color	2
+[FragmentMerge]
+Count	5
+Cost	pseudo	2	22500
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+BuyCost	pseudo	2	4500
+SellCost	pseudo	2	900
+TeamLevel	24
+HeroLevel	24
+AssetTexture	gear_55
+[[End]]
+[[	51	]]
+[BattleStatData]
+Intelligence	10
+Agility	10
+Strength	10
+[End]
+[CraftRecipe]
+Cost	pseudo	2	27000
+GearRecipe	21	1	22	1	23	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	9
+Color	2
+BuyCost	pseudo	2	5400
+SellCost	pseudo	2	1080
+TeamLevel	20
+HeroLevel	20
+AssetTexture	gear_29
+[[End]]
+[[	52	]]
+[BattleStatData]
+Intelligence	10
+MagicPenetration	50
+[End]
+[CraftRecipe]
+Cost	pseudo	2	18000
+GearRecipe	32	1	22	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	6
+Color	2
+BuyCost	pseudo	2	3600
+SellCost	pseudo	2	720
+TeamLevel	24
+HeroLevel	24
+AssetTexture	gear_53
+[[End]]
+[[	53	]]
+[BattleStatData]
+PhysicalAttack	33
+ArmorPenetration	50
+[End]
+[CraftRecipe]
+Cost	pseudo	2	18000
+GearRecipe	25	1	31	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	6
+Color	2
+BuyCost	pseudo	2	3600
+SellCost	pseudo	2	720
+TeamLevel	24
+HeroLevel	24
+AssetTexture	gear_37
+[[End]]
+[[	54	]]
+[BattleStatData]
+PhysicalAttack	33
+Dodge	15
+[End]
+[CraftRecipe]
+Cost	pseudo	2	18000
+GearRecipe	24	1	30	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	6
+Color	2
+BuyCost	pseudo	2	3600
+SellCost	pseudo	2	720
+TeamLevel	24
+HeroLevel	24
+AssetTexture	gear_33
+[[End]]
+[[	55	]]
+[BattleStatData]
+PhysicalAttack	33
+PhysicalCritChance	15
+[End]
+[CraftRecipe]
+Cost	pseudo	2	18000
+GearRecipe	25	1	29	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	6
+Color	2
+BuyCost	pseudo	2	3600
+SellCost	pseudo	2	720
+TeamLevel	24
+HeroLevel	24
+AssetTexture	gear_51
+[[End]]
+[[	56	]]
+[BattleStatData]
+Hp	1000
+[End]
+EnchantMultiplier	1
+EnchantValue	15
+FragmentEnchantValue	3
+Color	3
+[FragmentMerge]
+Count	5
+Cost	pseudo	2	22500
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+BuyCost	pseudo	2	4500
+BuySpecialCost	149
+SellCost	pseudo	2	900
+TeamLevel	28
+HeroLevel	28
+AssetTexture	gear_61
+[[End]]
+[[	57	]]
+[BattleStatData]
+PhysicalAttack	70
+[End]
+EnchantMultiplier	1
+EnchantValue	15
+FragmentEnchantValue	3
+Color	3
+[FragmentMerge]
+Count	5
+Cost	pseudo	2	22500
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+BuyCost	pseudo	2	4500
+BuySpecialCost	149
+SellCost	pseudo	2	900
+TeamLevel	28
+HeroLevel	28
+AssetTexture	gear_65
+[[End]]
+[[	58	]]
+[BattleStatData]
+MagicPower	100
+[End]
+EnchantMultiplier	1
+EnchantValue	15
+FragmentEnchantValue	3
+Color	3
+[FragmentMerge]
+Count	5
+Cost	pseudo	2	22500
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+BuyCost	pseudo	2	4500
+BuySpecialCost	149
+SellCost	pseudo	2	900
+TeamLevel	28
+HeroLevel	28
+AssetTexture	gear_60
+[[End]]
+[[	59	]]
+[BattleStatData]
+Armor	100
+[End]
+EnchantMultiplier	1
+EnchantValue	15
+FragmentEnchantValue	3
+Color	3
+[FragmentMerge]
+Count	5
+Cost	pseudo	2	22500
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+BuyCost	pseudo	2	4500
+BuySpecialCost	149
+SellCost	pseudo	2	900
+TeamLevel	30
+HeroLevel	30
+AssetTexture	gear_79
+[[End]]
+[[	60	]]
+[BattleStatData]
+MagicResist	100
+[End]
+EnchantMultiplier	1
+EnchantValue	15
+FragmentEnchantValue	3
+Color	3
+[FragmentMerge]
+Count	5
+Cost	pseudo	2	22500
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+BuyCost	pseudo	2	4500
+BuySpecialCost	149
+SellCost	pseudo	2	900
+TeamLevel	30
+HeroLevel	30
+AssetTexture	gear_59
+[[End]]
+[[	61	]]
+[BattleStatData]
+PhysicalCritChance	30
+[End]
+EnchantMultiplier	1
+EnchantValue	15
+FragmentEnchantValue	3
+Color	3
+[FragmentMerge]
+Count	5
+Cost	pseudo	2	22500
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+BuyCost	pseudo	2	4500
+BuySpecialCost	149
+SellCost	pseudo	2	900
+TeamLevel	32
+HeroLevel	32
+AssetTexture	gear_67
+[[End]]
+[[	62	]]
+[BattleStatData]
+Dodge	30
+[End]
+EnchantMultiplier	1
+EnchantValue	15
+FragmentEnchantValue	3
+Color	3
+[FragmentMerge]
+Count	5
+Cost	pseudo	2	22500
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+BuyCost	pseudo	2	4500
+BuySpecialCost	149
+SellCost	pseudo	2	900
+TeamLevel	32
+HeroLevel	32
+AssetTexture	gear_75
+[[End]]
+[[	63	]]
+[BattleStatData]
+Hp	800
+MagicPower	80
+[End]
+[CraftRecipe]
+Cost	pseudo	2	22500
+GearRecipe	56	1	58	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+Color	3
+BuyCost	pseudo	2	9750
+BuySpecialCost	322
+SellCost	pseudo	2	1950
+TeamLevel	38
+HeroLevel	38
+AssetTexture	gear_69
+[[End]]
+[[	64	]]
+[BattleStatData]
+Hp	800
+MagicResist	80
+[End]
+[CraftRecipe]
+Cost	pseudo	2	22500
+GearRecipe	56	1	60	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+Color	3
+BuyCost	pseudo	2	9750
+BuySpecialCost	322
+SellCost	pseudo	2	1950
+TeamLevel	38
+HeroLevel	38
+AssetTexture	gear_71
+[[End]]
+[[	65	]]
+[BattleStatData]
+PhysicalAttack	56
+MagicResist	80
+[End]
+[CraftRecipe]
+Cost	pseudo	2	22500
+GearRecipe	60	1	57	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+Color	3
+BuyCost	pseudo	2	9750
+BuySpecialCost	322
+SellCost	pseudo	2	1950
+TeamLevel	40
+HeroLevel	40
+AssetTexture	gear_57
+[[End]]
+[[	66	]]
+[BattleStatData]
+Agility	16
+PhysicalAttack	56
+[End]
+[CraftRecipe]
+Cost	pseudo	2	22500
+GearRecipe	57	1	23	2
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	21
+Color	3
+BuyCost	pseudo	2	8250
+BuySpecialCost	273
+SellCost	pseudo	2	1650
+TeamLevel	40
+HeroLevel	40
+AssetTexture	gear_66
+[[End]]
+[[	67	]]
+[BattleStatData]
+MagicPower	80
+MagicResist	80
+[End]
+[CraftRecipe]
+Cost	pseudo	2	22500
+GearRecipe	60	1	58	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+Color	3
+BuyCost	pseudo	2	9750
+BuySpecialCost	322
+SellCost	pseudo	2	1950
+TeamLevel	40
+HeroLevel	40
+AssetTexture	gear_64
+[[End]]
+[[	68	]]
+[BattleStatData]
+MagicPower	80
+Armor	80
+[End]
+[CraftRecipe]
+Cost	pseudo	2	22500
+GearRecipe	58	1	59	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+Color	3
+BuyCost	pseudo	2	9750
+BuySpecialCost	322
+SellCost	pseudo	2	1950
+TeamLevel	40
+HeroLevel	40
+AssetTexture	gear_58
+[[End]]
+[[	69	]]
+[BattleStatData]
+Strength	16
+Armor	80
+[End]
+[CraftRecipe]
+Cost	pseudo	2	22500
+GearRecipe	21	2	59	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	21
+Color	3
+BuyCost	pseudo	2	8250
+BuySpecialCost	273
+SellCost	pseudo	2	1650
+TeamLevel	40
+HeroLevel	40
+AssetTexture	gear_86
+[[End]]
+[[	70	]]
+[BattleStatData]
+PhysicalAttack	56
+ArmorPenetration	80
+[End]
+[CraftRecipe]
+Cost	pseudo	2	22500
+GearRecipe	57	1	31	2
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	21
+Color	3
+BuyCost	pseudo	2	8250
+BuySpecialCost	273
+SellCost	pseudo	2	1650
+TeamLevel	41
+HeroLevel	41
+AssetTexture	gear_62
+[[End]]
+[[	71	]]
+[BattleStatData]
+MagicPower	80
+MagicPenetration	80
+[End]
+[CraftRecipe]
+Cost	pseudo	2	22500
+GearRecipe	32	2	58	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	21
+Color	3
+BuyCost	pseudo	2	8250
+BuySpecialCost	273
+SellCost	pseudo	2	1650
+TeamLevel	41
+HeroLevel	41
+AssetTexture	gear_68
+[[End]]
+[[	72	]]
+[BattleStatData]
+PhysicalAttack	56
+PhysicalCritChance	24
+[End]
+[CraftRecipe]
+Cost	pseudo	2	22500
+GearRecipe	61	1	57	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+Color	3
+BuyCost	pseudo	2	9750
+BuySpecialCost	322
+SellCost	pseudo	2	1950
+TeamLevel	42
+HeroLevel	42
+AssetTexture	gear_56
+[[End]]
+[[	73	]]
+[BattleStatData]
+Hp	800
+Dodge	24
+[End]
+[CraftRecipe]
+Cost	pseudo	2	22500
+GearRecipe	56	1	62	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+Color	3
+BuyCost	pseudo	2	9750
+BuySpecialCost	322
+SellCost	pseudo	2	1950
+TeamLevel	42
+HeroLevel	42
+AssetTexture	gear_72
+[[End]]
+[[	74	]]
+[BattleStatData]
+Intelligence	5
+Agility	5
+Strength	15
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+FragmentEnchantValue	3
+Color	3
+[FragmentMerge]
+Count	10
+Cost	pseudo	2	30000
+[End]
+FragmentBuyCost	pseudo	2	1000
+FragmentSellCost	pseudo	2	200
+BuyCost	pseudo	2	12000
+BuySpecialCost	396
+SellCost	pseudo	2	2400
+TeamLevel	43
+HeroLevel	43
+AssetTexture	gear_76
+[[End]]
+[[	75	]]
+[BattleStatData]
+Intelligence	15
+Agility	5
+Strength	5
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+FragmentEnchantValue	3
+Color	3
+[FragmentMerge]
+Count	10
+Cost	pseudo	2	30000
+[End]
+FragmentBuyCost	pseudo	2	1000
+FragmentSellCost	pseudo	2	200
+BuyCost	pseudo	2	12000
+BuySpecialCost	396
+SellCost	pseudo	2	2400
+TeamLevel	43
+HeroLevel	43
+AssetTexture	gear_82
+[[End]]
+[[	76	]]
+[BattleStatData]
+Intelligence	5
+Agility	15
+Strength	5
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+FragmentEnchantValue	3
+Color	3
+[FragmentMerge]
+Count	10
+Cost	pseudo	2	30000
+[End]
+FragmentBuyCost	pseudo	2	1000
+FragmentSellCost	pseudo	2	200
+BuyCost	pseudo	2	12000
+BuySpecialCost	396
+SellCost	pseudo	2	2400
+TeamLevel	43
+HeroLevel	43
+AssetTexture	gear_87
+[[End]]
+[[	77	]]
+[BattleStatData]
+Lifesteal	5
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+FragmentEnchantValue	3
+Color	3
+[FragmentMerge]
+Count	10
+Cost	pseudo	2	30000
+[End]
+FragmentBuyCost	pseudo	2	1000
+FragmentSellCost	pseudo	2	200
+BuyCost	pseudo	2	12000
+BuySpecialCost	396
+SellCost	pseudo	2	2400
+TeamLevel	44
+HeroLevel	44
+AssetTexture	gear_78
+[[End]]
+[[	78	]]
+[BattleStatData]
+Agility	7
+PhysicalAttack	17
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+FragmentEnchantValue	15
+Color	3
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	35
+HeroLevel	35
+AssetTexture	gear_78
+[[End]]
+[[	79	]]
+[BattleStatData]
+Intelligence	9
+Agility	3
+Strength	3
+Hp	307
+MagicPower	5
+Armor	20
+MagicResist	44
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+FragmentEnchantValue	15
+Color	3
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	35
+HeroLevel	35
+AssetTexture	gear_79
+[[End]]
+[[	80	]]
+[BattleStatData]
+Intelligence	10
+Agility	2
+Strength	2
+Hp	288
+PhysicalAttack	19
+MagicPower	72
+MagicResist	28
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+FragmentEnchantValue	15
+Color	3
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	35
+HeroLevel	35
+AssetTexture	gear_80
+[[End]]
+[[	81	]]
+[BattleStatData]
+Intelligence	4
+Agility	4
+Strength	4
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+FragmentEnchantValue	15
+Color	3
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	35
+HeroLevel	35
+AssetTexture	gear_81
+[[End]]
+[[	82	]]
+[BattleStatData]
+Intelligence	5
+MagicPower	9
+Armor	9
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+FragmentEnchantValue	15
+Color	3
+[FragmentMerge]
+Count	5
+Cost	pseudo	2	1500
+[End]
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	35
+HeroLevel	35
+AssetTexture	gear_82
+[[End]]
+[[	83	]]
+[BattleStatData]
+Intelligence	3
+Strength	7
+Hp	89
+PhysicalAttack	19
+MagicResist	33
+[End]
+EnchantMultiplier	1
+EnchantValue	30
+FragmentEnchantValue	15
+Color	3
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	35
+HeroLevel	35
+AssetTexture	gear_83
+[[End]]
+[[	84	]]
+[BattleStatData]
+Intelligence	20
+Agility	20
+Strength	20
+[End]
+[CraftRecipe]
+Cost	pseudo	2	90000
+GearRecipe	74	1	75	1	76	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	90
+Color	3
+BuyCost	pseudo	2	39000
+BuySpecialCost	1287
+SellCost	pseudo	2	7800
+TeamLevel	45
+HeroLevel	45
+AssetTexture	gear_84
+[[End]]
+[[	85	]]
+[BattleStatData]
+Intelligence	5
+Agility	5
+Strength	15
+Hp	1000
+[End]
+[CraftRecipe]
+Cost	pseudo	2	90000
+GearRecipe	56	1	74	1
+ScrollRecipe	146	1
+[End]
+EnchantMultiplier	1
+EnchantValue	75
+Color	3
+BuyCost	pseudo	2	30500
+BuySpecialCost	1007
+SellCost	pseudo	2	6100
+TeamLevel	47
+HeroLevel	47
+AssetTexture	gear_83
+[[End]]
+[[	86	]]
+[BattleStatData]
+Intelligence	15
+Agility	5
+Strength	5
+MagicResist	100
+[End]
+[CraftRecipe]
+Cost	pseudo	2	90000
+GearRecipe	60	1	75	1
+ScrollRecipe	147	1
+[End]
+EnchantMultiplier	1
+EnchantValue	75
+Color	3
+BuyCost	pseudo	2	30500
+BuySpecialCost	1007
+SellCost	pseudo	2	6100
+TeamLevel	50
+HeroLevel	50
+AssetTexture	gear_63
+[[End]]
+[[	87	]]
+[BattleStatData]
+Intelligence	5
+Agility	15
+Strength	5
+PhysicalAttack	70
+[End]
+[CraftRecipe]
+Cost	pseudo	2	90000
+GearRecipe	76	1	57	1
+ScrollRecipe	148	1
+[End]
+EnchantMultiplier	1
+EnchantValue	75
+Color	3
+BuyCost	pseudo	2	30500
+BuySpecialCost	1007
+SellCost	pseudo	2	6100
+TeamLevel	45
+HeroLevel	45
+AssetTexture	gear_74
+[[End]]
+[[	88	]]
+[BattleStatData]
+Hp	800
+MagicPower	80
+Armor	100
+[End]
+[CraftRecipe]
+Cost	pseudo	2	90000
+GearRecipe	59	1	63	1
+ScrollRecipe	149	1
+[End]
+EnchantMultiplier	1
+EnchantValue	75
+Color	3
+BuyCost	pseudo	2	28250
+BuySpecialCost	933
+SellCost	pseudo	2	5650
+TeamLevel	50
+HeroLevel	50
+AssetTexture	gear_73
+[[End]]
+[[	89	]]
+[BattleStatData]
+Agility	16
+PhysicalAttack	56
+PhysicalCritChance	30
+[End]
+[CraftRecipe]
+Cost	pseudo	2	90000
+GearRecipe	61	1	66	1
+ScrollRecipe	150	1
+[End]
+EnchantMultiplier	1
+EnchantValue	66
+Color	3
+BuyCost	pseudo	2	26750
+BuySpecialCost	883
+SellCost	pseudo	2	5350
+TeamLevel	46
+HeroLevel	46
+AssetTexture	gear_88
+[[End]]
+[[	90	]]
+[BattleStatData]
+Strength	16
+PhysicalAttack	70
+Armor	80
+[End]
+[CraftRecipe]
+Cost	pseudo	2	90000
+GearRecipe	69	1	57	1
+ScrollRecipe	151	1
+[End]
+EnchantMultiplier	1
+EnchantValue	66
+Color	3
+BuyCost	pseudo	2	26750
+BuySpecialCost	883
+SellCost	pseudo	2	5350
+TeamLevel	45
+HeroLevel	45
+AssetTexture	gear_85
+[[End]]
+[[	91	]]
+[BattleStatData]
+Hp	2000
+[End]
+EnchantMultiplier	1
+EnchantValue	80
+FragmentEnchantValue	4
+Color	4
+[FragmentMerge]
+Count	20
+Cost	pseudo	2	45000
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	83
+BuyCost	pseudo	2	16500
+BuySpecialCost	1650
+SellCost	pseudo	2	3300
+TeamLevel	58
+HeroLevel	58
+AssetTexture	gear_140
+[[End]]
+[[	92	]]
+[BattleStatData]
+PhysicalAttack	135
+[End]
+EnchantMultiplier	1
+EnchantValue	80
+FragmentEnchantValue	4
+Color	4
+[FragmentMerge]
+Count	20
+Cost	pseudo	2	45000
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	83
+BuyCost	pseudo	2	16500
+BuySpecialCost	1650
+SellCost	pseudo	2	3300
+TeamLevel	58
+HeroLevel	58
+AssetTexture	gear_133
+[[End]]
+[[	93	]]
+[BattleStatData]
+MagicPower	200
+[End]
+EnchantMultiplier	1
+EnchantValue	80
+FragmentEnchantValue	4
+Color	4
+[FragmentMerge]
+Count	20
+Cost	pseudo	2	45000
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	83
+BuyCost	pseudo	2	16500
+BuySpecialCost	1650
+SellCost	pseudo	2	3300
+TeamLevel	58
+HeroLevel	58
+AssetTexture	gear_112
+[[End]]
+[[	94	]]
+[BattleStatData]
+Strength	38
+[End]
+EnchantMultiplier	1
+EnchantValue	80
+FragmentEnchantValue	4
+Color	4
+[FragmentMerge]
+Count	20
+Cost	pseudo	2	45000
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	83
+BuyCost	pseudo	2	16500
+BuySpecialCost	1650
+SellCost	pseudo	2	3300
+TeamLevel	59
+HeroLevel	59
+AssetTexture	gear_138
+[[End]]
+[[	95	]]
+[BattleStatData]
+Intelligence	38
+[End]
+EnchantMultiplier	1
+EnchantValue	80
+FragmentEnchantValue	4
+Color	4
+[FragmentMerge]
+Count	20
+Cost	pseudo	2	45000
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	83
+BuyCost	pseudo	2	16500
+BuySpecialCost	1650
+SellCost	pseudo	2	3300
+TeamLevel	59
+HeroLevel	59
+AssetTexture	gear_111
+[[End]]
+[[	96	]]
+[BattleStatData]
+Agility	38
+[End]
+EnchantMultiplier	1
+EnchantValue	80
+FragmentEnchantValue	4
+Color	4
+[FragmentMerge]
+Count	20
+Cost	pseudo	2	45000
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	83
+BuyCost	pseudo	2	16500
+BuySpecialCost	1650
+SellCost	pseudo	2	3300
+TeamLevel	59
+HeroLevel	59
+AssetTexture	gear_93
+[[End]]
+[[	97	]]
+[BattleStatData]
+ArmorPenetration	200
+[End]
+EnchantMultiplier	1
+EnchantValue	80
+FragmentEnchantValue	4
+Color	4
+[FragmentMerge]
+Count	20
+Cost	pseudo	2	45000
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	83
+BuyCost	pseudo	2	16500
+BuySpecialCost	1650
+SellCost	pseudo	2	3300
+TeamLevel	60
+HeroLevel	60
+AssetTexture	gear_136
+[[End]]
+[[	98	]]
+[BattleStatData]
+MagicPenetration	200
+[End]
+EnchantMultiplier	1
+EnchantValue	80
+FragmentEnchantValue	4
+Color	4
+[FragmentMerge]
+Count	20
+Cost	pseudo	2	45000
+[End]
+FragmentBuyCost	pseudo	2	750
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	83
+BuyCost	pseudo	2	16500
+BuySpecialCost	1650
+SellCost	pseudo	2	3300
+TeamLevel	60
+HeroLevel	60
+AssetTexture	gear_116
+[[End]]
+[[	99	]]
+[BattleStatData]
+Armor	200
+[End]
+[CraftRecipe]
+Cost	pseudo	2	45000
+GearRecipe	59	1
+ScrollRecipe	162	1
+[End]
+EnchantMultiplier	1
+EnchantValue	110
+Color	4
+BuyCost	pseudo	2	27000
+BuySpecialCost	2700
+SellCost	pseudo	2	5400
+TeamLevel	61
+HeroLevel	61
+AssetTexture	gear_92
+[[End]]
+[[	100	]]
+[BattleStatData]
+MagicResist	200
+[End]
+[CraftRecipe]
+Cost	pseudo	2	45000
+GearRecipe	60	1
+ScrollRecipe	163	1
+[End]
+EnchantMultiplier	1
+EnchantValue	110
+Color	4
+BuyCost	pseudo	2	27000
+BuySpecialCost	2700
+SellCost	pseudo	2	5400
+TeamLevel	61
+HeroLevel	61
+AssetTexture	gear_110
+[[End]]
+[[	101	]]
+[BattleStatData]
+PhysicalCritChance	60
+[End]
+[CraftRecipe]
+Cost	pseudo	2	45000
+GearRecipe	61	1
+ScrollRecipe	164	1
+[End]
+EnchantMultiplier	1
+EnchantValue	110
+Color	4
+BuyCost	pseudo	2	27000
+BuySpecialCost	2700
+SellCost	pseudo	2	5400
+TeamLevel	61
+HeroLevel	61
+AssetTexture	gear_107
+[[End]]
+[[	102	]]
+[BattleStatData]
+Dodge	60
+[End]
+[CraftRecipe]
+Cost	pseudo	2	45000
+GearRecipe	62	1
+ScrollRecipe	165	1
+[End]
+EnchantMultiplier	1
+EnchantValue	110
+Color	4
+BuyCost	pseudo	2	27000
+BuySpecialCost	2700
+SellCost	pseudo	2	5400
+TeamLevel	61
+HeroLevel	61
+AssetTexture	gear_109
+[[End]]
+[[	103	]]
+[BattleStatData]
+Agility	4
+PhysicalAttack	121
+PhysicalCritChance	13
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	18
+HeroLevel	18
+AssetTexture	gear_103
+[[End]]
+[[	104	]]
+[BattleStatData]
+Intelligence	15
+Agility	1
+Strength	1
+Hp	230
+PhysicalAttack	15
+MagicPower	228
+Armor	5
+MagicResist	44
+PhysicalCritChance	6
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	44
+HeroLevel	44
+AssetTexture	gear_104
+[[End]]
+[[	105	]]
+[BattleStatData]
+Intelligence	24
+Agility	1
+Strength	1
+Hp	368
+PhysicalAttack	24
+MagicPower	364
+Armor	8
+MagicResist	70
+PhysicalCritChance	9
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	53
+HeroLevel	53
+AssetTexture	gear_105
+[[End]]
+[[	106	]]
+[BattleStatData]
+MagicPower	192
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+[FragmentMerge]
+Count	50
+Cost	pseudo	2	15000
+[End]
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	35
+HeroLevel	35
+AssetTexture	gear_106
+[[End]]
+[[	107	]]
+[BattleStatData]
+Hp	1920
+Armor	48
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+[FragmentMerge]
+Count	50
+Cost	pseudo	2	15000
+[End]
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	15
+HeroLevel	15
+AssetTexture	gear_107
+[[End]]
+[[	108	]]
+[BattleStatData]
+Intelligence	1
+Agility	5
+Strength	4
+Hp	1484
+MagicPower	12
+Armor	118
+MagicResist	60
+PhysicalCritChance	8
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	50
+HeroLevel	50
+AssetTexture	gear_108
+[[End]]
+[[	109	]]
+[BattleStatData]
+Intelligence	21
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+[FragmentMerge]
+Count	20
+Cost	pseudo	2	6000
+[End]
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	19
+HeroLevel	19
+AssetTexture	gear_109
+[[End]]
+[[	110	]]
+[BattleStatData]
+Intelligence	24
+Strength	2
+MagicPower	15
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	66
+HeroLevel	66
+AssetTexture	gear_110
+[[End]]
+[[	111	]]
+[BattleStatData]
+Intelligence	2
+Strength	5
+Hp	1223
+PhysicalAttack	15
+MagicPower	38
+MagicResist	64
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	73
+HeroLevel	73
+AssetTexture	gear_111
+[[End]]
+[[	112	]]
+[BattleStatData]
+Hp	1440
+MagicPower	48
+MagicResist	48
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+[FragmentMerge]
+Count	50
+Cost	pseudo	2	15000
+[End]
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	15
+HeroLevel	15
+AssetTexture	gear_112
+[[End]]
+[[	113	]]
+[BattleStatData]
+Intelligence	14
+Agility	14
+Strength	14
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+[FragmentMerge]
+Count	50
+Cost	pseudo	2	15000
+[End]
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	65
+HeroLevel	65
+AssetTexture	gear_113
+[[End]]
+[[	114	]]
+[BattleStatData]
+Hp	1600
+PhysicalAttack	216
+[End]
+[CraftRecipe]
+Cost	pseudo	2	135000
+GearRecipe	92	2	91	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	240
+Color	4
+BuyCost	pseudo	2	54000
+BuySpecialCost	5400
+SellCost	pseudo	2	10800
+TeamLevel	68
+HeroLevel	68
+AssetTexture	gear_139
+[[End]]
+[[	115	]]
+[BattleStatData]
+MagicPower	160
+MagicResist	160
+[End]
+[CraftRecipe]
+Cost	pseudo	2	112500
+GearRecipe	100	1	93	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	190
+Color	4
+BuyCost	pseudo	2	47250
+BuySpecialCost	4725
+SellCost	pseudo	2	9450
+TeamLevel	67
+HeroLevel	67
+AssetTexture	gear_125
+[[End]]
+[[	116	]]
+[BattleStatData]
+Intelligence	30
+MagicPower	160
+MagicResist	160
+[End]
+[CraftRecipe]
+Cost	pseudo	2	157500
+GearRecipe	100	1	93	1	95	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	270
+Color	4
+BuyCost	pseudo	2	65250
+BuySpecialCost	6525
+SellCost	pseudo	2	13050
+TeamLevel	68
+HeroLevel	68
+AssetTexture	gear_122
+[[End]]
+[[	117	]]
+[BattleStatData]
+Intelligence	30
+MagicPower	160
+MagicPenetration	160
+[End]
+[CraftRecipe]
+Cost	pseudo	2	135000
+GearRecipe	98	1	93	1	95	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	240
+Color	4
+BuyCost	pseudo	2	54000
+BuySpecialCost	5400
+SellCost	pseudo	2	10800
+TeamLevel	68
+HeroLevel	68
+AssetTexture	gear_124
+[[End]]
+[[	118	]]
+[BattleStatData]
+Agility	30
+PhysicalAttack	108
+ArmorPenetration	160
+[End]
+[CraftRecipe]
+Cost	pseudo	2	135000
+GearRecipe	96	1	97	1	92	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	240
+Color	4
+BuyCost	pseudo	2	54000
+BuySpecialCost	5400
+SellCost	pseudo	2	10800
+TeamLevel	68
+HeroLevel	68
+AssetTexture	gear_102
+[[End]]
+[[	119	]]
+[BattleStatData]
+Intelligence	30
+MagicPower	160
+[End]
+[CraftRecipe]
+Cost	pseudo	2	90000
+GearRecipe	93	1	95	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	160
+Color	4
+BuyCost	pseudo	2	36000
+BuySpecialCost	3600
+SellCost	pseudo	2	7200
+TeamLevel	67
+HeroLevel	67
+AssetTexture	gear_121
+[[End]]
+[[	120	]]
+[BattleStatData]
+Agility	30
+PhysicalAttack	108
+[End]
+[CraftRecipe]
+Cost	pseudo	2	90000
+GearRecipe	92	1	96	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	160
+Color	4
+BuyCost	pseudo	2	36000
+BuySpecialCost	3600
+SellCost	pseudo	2	7200
+TeamLevel	67
+HeroLevel	67
+AssetTexture	gear_134
+[[End]]
+[[	121	]]
+[BattleStatData]
+Agility	30
+MagicResist	160
+[End]
+[CraftRecipe]
+Cost	pseudo	2	112500
+GearRecipe	96	1	100	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	190
+Color	4
+BuyCost	pseudo	2	47250
+BuySpecialCost	4725
+SellCost	pseudo	2	9450
+TeamLevel	67
+HeroLevel	67
+AssetTexture	gear_132
+[[End]]
+[[	122	]]
+[BattleStatData]
+PhysicalAttack	108
+Armor	160
+[End]
+[CraftRecipe]
+Cost	pseudo	2	112500
+GearRecipe	92	1	99	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	190
+Color	4
+BuyCost	pseudo	2	47250
+BuySpecialCost	4725
+SellCost	pseudo	2	9450
+TeamLevel	67
+HeroLevel	67
+AssetTexture	gear_96
+[[End]]
+[[	123	]]
+[BattleStatData]
+Strength	30
+Hp	1600
+[End]
+[CraftRecipe]
+Cost	pseudo	2	90000
+GearRecipe	94	1	91	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	160
+Color	4
+BuyCost	pseudo	2	36000
+BuySpecialCost	3600
+SellCost	pseudo	2	7200
+TeamLevel	67
+HeroLevel	67
+AssetTexture	gear_118
+[[End]]
+[[	124	]]
+[BattleStatData]
+Lifesteal	10
+[End]
+[CraftRecipe]
+Cost	pseudo	2	105000
+GearRecipe	77	2
+ScrollRecipe	166	1
+[End]
+EnchantMultiplier	1
+EnchantValue	140
+Color	4
+BuyCost	pseudo	2	44000
+BuySpecialCost	4400
+SellCost	pseudo	2	8800
+TeamLevel	67
+HeroLevel	67
+AssetTexture	gear_114
+[[End]]
+[[	125	]]
+[BattleStatData]
+PhysicalAttack	216
+MagicResist	160
+[End]
+[CraftRecipe]
+Cost	pseudo	2	157500
+GearRecipe	92	2	100	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	270
+Color	4
+BuyCost	pseudo	2	65250
+BuySpecialCost	6525
+SellCost	pseudo	2	13050
+TeamLevel	69
+HeroLevel	69
+AssetTexture	gear_97
+[[End]]
+[[	126	]]
+[BattleStatData]
+Hp	1600
+MagicPower	320
+[End]
+[CraftRecipe]
+Cost	pseudo	2	135000
+GearRecipe	93	2	91	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	240
+Color	4
+BuyCost	pseudo	2	54000
+BuySpecialCost	5400
+SellCost	pseudo	2	10800
+TeamLevel	69
+HeroLevel	69
+AssetTexture	gear_129
+[[End]]
+[[	127	]]
+[BattleStatData]
+Intelligence	30
+Agility	30
+Strength	30
+[End]
+[CraftRecipe]
+Cost	pseudo	2	135000
+GearRecipe	96	1	94	1	95	1
+ScrollRecipe
+[End]
+EnchantMultiplier	1
+EnchantValue	240
+Color	4
+BuyCost	pseudo	2	54000
+BuySpecialCost	5400
+SellCost	pseudo	2	10800
+TeamLevel	69
+HeroLevel	69
+AssetTexture	gear_126
+[[End]]
+[[	128	]]
+[BattleStatData]
+Intelligence	46
+Agility	12
+Strength	12
+Hp	313
+MagicPower	4
+Armor	19
+MagicResist	44
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	51
+HeroLevel	51
+AssetTexture	gear_128
+[[End]]
+[[	129	]]
+[BattleStatData]
+Intelligence	18
+Agility	14
+Strength	14
+Hp	196
+MagicPower	3
+Armor	12
+MagicResist	28
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	78
+HeroLevel	78
+AssetTexture	gear_129
+[[End]]
+[[	130	]]
+[BattleStatData]
+Intelligence	28
+Agility	22
+Strength	22
+Hp	313
+MagicPower	4
+Armor	19
+MagicResist	44
+[End]
+EnchantMultiplier	1
+EnchantValue	40
+FragmentEnchantValue	20
+Color	4
+BuyCost	pseudo	2	50
+SellCost	pseudo	2	50
+TeamLevel	85
+HeroLevel	85
+AssetTexture	gear_130
+[[End]]
+[[	131	]]
+[BattleStatData]
+Intelligence	24
+Agility	24
+Strength	54
+[End]
+[CraftRecipe]
+Cost	pseudo	2	217500
+GearRecipe	94	1	127	1
+ScrollRecipe	161	1
+[End]
+EnchantMultiplier	1
+EnchantValue	400
+Color	4
+BuyCost	pseudo	2	91500
+BuySpecialCost	9150
+SellCost	pseudo	2	18300
+TeamLevel	72
+HeroLevel	72
+AssetTexture	gear_94
+[[End]]
+[[	132	]]
+[BattleStatData]
+Intelligence	54
+Agility	24
+Strength	24
+[End]
+[CraftRecipe]
+Cost	pseudo	2	217500
+GearRecipe	127	1	95	1
+ScrollRecipe	160	1
+[End]
+EnchantMultiplier	1
+EnchantValue	400
+Color	4
+BuyCost	pseudo	2	91500
+BuySpecialCost	9150
+SellCost	pseudo	2	18300
+TeamLevel	73
+HeroLevel	73
+AssetTexture	gear_127
+[[End]]
+[[	133	]]
+[BattleStatData]
+Intelligence	24
+Agility	54
+Strength	24
+[End]
+[CraftRecipe]
+Cost	pseudo	2	217500
+GearRecipe	96	1	127	1
+ScrollRecipe	159	1
+[End]
+EnchantMultiplier	1
+EnchantValue	400
+Color	4
+BuyCost	pseudo	2	91500
+BuySpecialCost	9150
+SellCost	pseudo	2	18300
+TeamLevel	74
+HeroLevel	74
+AssetTexture	gear_104
+[[End]]
+[[	134	]]
+[BattleStatData]
+PhysicalAttack	345
+MagicResist	256
+[End]
+[CraftRecipe]
+Cost	pseudo	2	217500
+GearRecipe	125	2
+ScrollRecipe	158	1
+[End]
+EnchantMultiplier	1
+EnchantValue	620
+Color	4
+BuyCost	pseudo	2	151500
+BuySpecialCost	15150
+SellCost	pseudo	2	30300
+TeamLevel	75
+HeroLevel	75
+AssetTexture	gear_98
+[[End]]
+[[	135	]]
+[BattleStatData]
+Hp	2560
+MagicPower	512
+[End]
+[CraftRecipe]
+Cost	pseudo	2	217500
+GearRecipe	126	2
+ScrollRecipe	157	1
+[End]
+EnchantMultiplier	1
+EnchantValue	560
+Color	4
+BuyCost	pseudo	2	129000
+BuySpecialCost	12900
+SellCost	pseudo	2	25800
+TeamLevel	75
+HeroLevel	75
+AssetTexture	gear_130
+[[End]]
+[[	136	]]
+[BattleStatData]
+Intelligence	38
+Agility	38
+Strength	86
+[End]
+[CraftRecipe]
+Cost	pseudo	2	382500
+GearRecipe	131	2
+ScrollRecipe	156	1
+[End]
+EnchantMultiplier	1
+EnchantValue	1000
+Color	4
+BuyCost	pseudo	2	223250
+BuySpecialCost	22325
+SellCost	pseudo	2	44650
+TeamLevel	80
+HeroLevel	80
+AssetTexture	gear_95
+[[End]]
+[[	137	]]
+[BattleStatData]
+Intelligence	86
+Agility	38
+Strength	38
+[End]
+[CraftRecipe]
+Cost	pseudo	2	382500
+GearRecipe	132	2
+ScrollRecipe	155	1
+[End]
+EnchantMultiplier	1
+EnchantValue	1000
+Color	4
+BuyCost	pseudo	2	223250
+BuySpecialCost	22325
+SellCost	pseudo	2	44650
+TeamLevel	80
+HeroLevel	80
+AssetTexture	gear_128
+[[End]]
+[[	138	]]
+[BattleStatData]
+Intelligence	38
+Agility	86
+Strength	38
+[End]
+[CraftRecipe]
+Cost	pseudo	2	382500
+GearRecipe	133	2
+ScrollRecipe	154	1
+[End]
+EnchantMultiplier	1
+EnchantValue	1000
+Color	4
+BuyCost	pseudo	2	223250
+BuySpecialCost	22325
+SellCost	pseudo	2	44650
+TeamLevel	80
+HeroLevel	80
+AssetTexture	gear_105
+[[End]]
+[[	139	]]
+[BattleStatData]
+PhysicalAttack	552
+MagicResist	409
+[End]
+[CraftRecipe]
+Cost	pseudo	2	382500
+GearRecipe	134	2
+ScrollRecipe	153	1
+[End]
+EnchantMultiplier	1
+EnchantValue	1440
+Color	4
+BuyCost	pseudo	2	343250
+BuySpecialCost	34325
+SellCost	pseudo	2	68650
+TeamLevel	80
+HeroLevel	80
+AssetTexture	gear_99
+[[End]]
+[[	140	]]
+[BattleStatData]
+Hp	4096
+MagicPower	819
+[End]
+[CraftRecipe]
+Cost	pseudo	2	382500
+GearRecipe	135	2
+ScrollRecipe	152	1
+[End]
+EnchantMultiplier	1
+EnchantValue	1320
+Color	4
+BuyCost	pseudo	2	298250
+BuySpecialCost	29825
+SellCost	pseudo	2	59650
+TeamLevel	80
+HeroLevel	80
+AssetTexture	gear_131
+[[End]]
+[[	167	]]
+[BattleStatData]
+Hp	6000
+[End]
+EnchantValue	320
+FragmentEnchantValue	4
+Color	5
+[FragmentMerge]
+Count	80
+Cost	pseudo	2	180000
+[End]
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	82
+BuyCost	pseudo	2	66000
+BuySpecialCost	6600
+SellCost	pseudo	2	13200
+TeamLevel	90
+HeroLevel	90
+AssetTexture	gear_167
+[[End]]
+[[	168	]]
+[BattleStatData]
+PhysicalAttack	400
+[End]
+EnchantValue	320
+FragmentEnchantValue	4
+Color	5
+[FragmentMerge]
+Count	80
+Cost	pseudo	2	180000
+[End]
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	82
+BuyCost	pseudo	2	66000
+BuySpecialCost	6600
+SellCost	pseudo	2	13200
+TeamLevel	90
+HeroLevel	90
+AssetTexture	gear_168
+[[End]]
+[[	169	]]
+[BattleStatData]
+MagicPower	600
+[End]
+EnchantValue	320
+FragmentEnchantValue	4
+Color	5
+[FragmentMerge]
+Count	80
+Cost	pseudo	2	180000
+[End]
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	82
+BuyCost	pseudo	2	66000
+BuySpecialCost	6600
+SellCost	pseudo	2	13200
+TeamLevel	90
+HeroLevel	90
+AssetTexture	gear_169
+[[End]]
+[[	170	]]
+[BattleStatData]
+Strength	109
+[End]
+EnchantValue	320
+FragmentEnchantValue	4
+Color	5
+[FragmentMerge]
+Count	80
+Cost	pseudo	2	180000
+[End]
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	82
+BuyCost	pseudo	2	66000
+BuySpecialCost	6600
+SellCost	pseudo	2	13200
+TeamLevel	90
+HeroLevel	90
+AssetTexture	gear_170
+ObtainType	shop:boss
+[[End]]
+[[	171	]]
+[BattleStatData]
+Intelligence	109
+[End]
+EnchantValue	320
+FragmentEnchantValue	4
+Color	5
+[FragmentMerge]
+Count	80
+Cost	pseudo	2	180000
+[End]
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	82
+BuyCost	pseudo	2	66000
+BuySpecialCost	6600
+SellCost	pseudo	2	13200
+TeamLevel	90
+HeroLevel	90
+AssetTexture	gear_171
+ObtainType	shop:boss
+[[End]]
+[[	172	]]
+[BattleStatData]
+Agility	109
+[End]
+EnchantValue	320
+FragmentEnchantValue	4
+Color	5
+[FragmentMerge]
+Count	80
+Cost	pseudo	2	180000
+[End]
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	82
+BuyCost	pseudo	2	66000
+BuySpecialCost	6600
+SellCost	pseudo	2	13200
+TeamLevel	90
+HeroLevel	90
+AssetTexture	gear_172
+ObtainType	shop:boss
+[[End]]
+[[	173	]]
+[BattleStatData]
+ArmorPenetration	600
+[End]
+EnchantValue	320
+FragmentEnchantValue	4
+Color	5
+[FragmentMerge]
+Count	80
+Cost	pseudo	2	180000
+[End]
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	82
+BuyCost	pseudo	2	66000
+BuySpecialCost	6600
+SellCost	pseudo	2	13200
+TeamLevel	90
+HeroLevel	90
+AssetTexture	gear_173
+[[End]]
+[[	174	]]
+[BattleStatData]
+MagicPenetration	600
+[End]
+EnchantValue	320
+FragmentEnchantValue	4
+Color	5
+[FragmentMerge]
+Count	80
+Cost	pseudo	2	180000
+[End]
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	82
+BuyCost	pseudo	2	66000
+BuySpecialCost	6600
+SellCost	pseudo	2	13200
+TeamLevel	90
+HeroLevel	90
+AssetTexture	gear_174
+[[End]]
+[[	175	]]
+[BattleStatData]
+Armor	600
+[End]
+EnchantValue	320
+FragmentEnchantValue	4
+Color	5
+[FragmentMerge]
+Count	80
+Cost	pseudo	2	180000
+[End]
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	82
+BuyCost	pseudo	2	66000
+BuySpecialCost	6600
+SellCost	pseudo	2	13200
+TeamLevel	90
+HeroLevel	90
+AssetTexture	gear_175
+[[End]]
+[[	176	]]
+[BattleStatData]
+MagicResist	600
+[End]
+EnchantValue	320
+FragmentEnchantValue	4
+Color	5
+[FragmentMerge]
+Count	80
+Cost	pseudo	2	180000
+[End]
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	82
+BuyCost	pseudo	2	66000
+BuySpecialCost	6600
+SellCost	pseudo	2	13200
+TeamLevel	90
+HeroLevel	90
+AssetTexture	gear_176
+[[End]]
+[[	177	]]
+[BattleStatData]
+PhysicalCritChance	166
+[End]
+EnchantValue	320
+FragmentEnchantValue	4
+Color	5
+[FragmentMerge]
+Count	80
+Cost	pseudo	2	180000
+[End]
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	82
+BuyCost	pseudo	2	66000
+BuySpecialCost	6600
+SellCost	pseudo	2	13200
+TeamLevel	90
+HeroLevel	90
+AssetTexture	gear_177
+[[End]]
+[[	178	]]
+[BattleStatData]
+Dodge	166
+[End]
+EnchantValue	320
+FragmentEnchantValue	4
+Color	5
+[FragmentMerge]
+Count	80
+Cost	pseudo	2	180000
+[End]
+FragmentSellCost	pseudo	2	150
+FragmentSpecialCost	82
+BuyCost	pseudo	2	66000
+BuySpecialCost	6600
+SellCost	pseudo	2	13200
+TeamLevel	90
+HeroLevel	90
+AssetTexture	gear_178
+[[End]]
+[[	179	]]
+[BattleStatData]
+Hp	3200
+PhysicalAttack	640
+[End]
+[CraftRecipe]
+Cost	pseudo	2	472500
+GearRecipe	168	2	91	2
+ScrollRecipe	190	1
+[End]
+EnchantValue	1120
+Color	5
+BuyCost	pseudo	2	246750
+BuySpecialCost	24675
+SellCost	pseudo	2	49350
+TeamLevel	100
+HeroLevel	100
+AssetTexture	gear_179
+[[End]]
+[[	180	]]
+[BattleStatData]
+Hp	3200
+MagicPower	960
+[End]
+[CraftRecipe]
+Cost	pseudo	2	472500
+GearRecipe	169	2	91	2
+ScrollRecipe	191	1
+[End]
+EnchantValue	1120
+Color	5
+BuyCost	pseudo	2	246750
+BuySpecialCost	24675
+SellCost	pseudo	2	49350
+TeamLevel	100
+HeroLevel	100
+AssetTexture	gear_180
+[[End]]
+[[	181	]]
+[BattleStatData]
+MagicPower	480
+MagicPenetration	320
+[End]
+[CraftRecipe]
+Cost	pseudo	2	337500
+GearRecipe	169	1	98	2
+ScrollRecipe	192	1
+[End]
+EnchantValue	800
+Color	5
+BuyCost	pseudo	2	176250
+BuySpecialCost	17625
+SellCost	pseudo	2	35250
+TeamLevel	100
+HeroLevel	100
+AssetTexture	gear_181
+[[End]]
+[[	182	]]
+[BattleStatData]
+PhysicalAttack	320
+ArmorPenetration	320
+[End]
+[CraftRecipe]
+Cost	pseudo	2	337500
+GearRecipe	168	1	97	2
+ScrollRecipe	193	1
+[End]
+EnchantValue	800
+Color	5
+BuyCost	pseudo	2	176250
+BuySpecialCost	17625
+SellCost	pseudo	2	35250
+TeamLevel	100
+HeroLevel	100
+AssetTexture	gear_182
+[[End]]
+[[	183	]]
+[BattleStatData]
+Hp	4800
+Armor	320
+[End]
+[CraftRecipe]
+Cost	pseudo	2	371250
+GearRecipe	167	1	99	2
+ScrollRecipe	194	1
+[End]
+EnchantValue	860
+Color	5
+BuyCost	pseudo	2	198375
+BuySpecialCost	19838
+SellCost	pseudo	2	39675
+TeamLevel	100
+HeroLevel	100
+AssetTexture	gear_183
+[[End]]
+[[	184	]]
+[BattleStatData]
+Hp	4800
+MagicResist	320
+[End]
+[CraftRecipe]
+Cost	pseudo	2	371250
+GearRecipe	100	2	167	1
+ScrollRecipe	195	1
+[End]
+EnchantValue	860
+Color	5
+BuyCost	pseudo	2	198375
+BuySpecialCost	19838
+SellCost	pseudo	2	39675
+TeamLevel	100
+HeroLevel	100
+AssetTexture	gear_184
+[[End]]
+[[	185	]]
+[BattleStatData]
+Intelligence	24
+Agility	24
+Strength	198
+[End]
+[CraftRecipe]
+Cost	pseudo	2	506250
+GearRecipe	170	2	127	2
+ScrollRecipe	196	1
+[End]
+EnchantValue	1200
+Color	5
+BuyCost	pseudo	2	268875
+BuySpecialCost	26888
+SellCost	pseudo	2	53775
+TeamLevel	100
+HeroLevel	100
+AssetTexture	gear_185
+ObtainType	shop:boss
+[[End]]
+[[	186	]]
+[BattleStatData]
+Intelligence	198
+Agility	24
+Strength	24
+[End]
+[CraftRecipe]
+Cost	pseudo	2	506250
+GearRecipe	171	2	127	2
+ScrollRecipe	197	1
+[End]
+EnchantValue	1200
+Color	5
+BuyCost	pseudo	2	268875
+BuySpecialCost	26888
+SellCost	pseudo	2	53775
+TeamLevel	100
+HeroLevel	100
+AssetTexture	gear_186
+ObtainType	shop:boss
+[[End]]
+[[	187	]]
+[BattleStatData]
+Intelligence	24
+Agility	198
+Strength	24
+[End]
+[CraftRecipe]
+Cost	pseudo	2	506250
+GearRecipe	172	2	127	2
+ScrollRecipe	198	1
+[End]
+EnchantValue	1200
+Color	5
+BuyCost	pseudo	2	268875
+BuySpecialCost	26888
+SellCost	pseudo	2	53775
+TeamLevel	100
+HeroLevel	100
+AssetTexture	gear_187
+ObtainType	shop:boss
+[[End]]
+[[	188	]]
+[BattleStatData]
+PhysicalAttack	320
+PhysicalCritChance	228
+[End]
+[CraftRecipe]
+Cost	pseudo	2	506250
+GearRecipe	168	1	177	1	101	2
+ScrollRecipe	199	1
+[End]
+EnchantValue	1180
+Color	5
+BuyCost	pseudo	2	268875
+BuySpecialCost	26888
+SellCost	pseudo	2	53775
+TeamLevel	100
+HeroLevel	100
+AssetTexture	gear_188
+[[End]]
+[[	189	]]
+[BattleStatData]
+Hp	4800
+Dodge	228
+[End]
+[CraftRecipe]
+Cost	pseudo	2	506250
+GearRecipe	178	1	102	2	167	1
+ScrollRecipe	200	1
+[End]
+EnchantValue	1180
+Color	5
+BuyCost	pseudo	2	268875
+BuySpecialCost	26888
+SellCost	pseudo	2	53775
+TeamLevel	100
+HeroLevel	100
+AssetTexture	gear_189
+[[End]]
+[[	201	]]
+[BattleStatData]
+Hp	5120
+PhysicalAttack	1024
+[End]
+[CraftRecipe]
+Cost	pseudo	2	1008000
+GearRecipe	179	2
+ScrollRecipe	204	1
+[End]
+EnchantValue	2400
+Color	5
+BuyCost	pseudo	2	528000
+BuySpecialCost	55950
+SellCost	pseudo	2	105600
+TeamLevel	108
+HeroLevel	108
+AssetTexture	gear_201
+[[End]]
+[[	202	]]
+[BattleStatData]
+PhysicalAttack	648
+PhysicalCritChance	265
+[End]
+[CraftRecipe]
+Cost	pseudo	2	567000
+GearRecipe	96	6	177	2
+ScrollRecipe	205	1
+[End]
+EnchantValue	1280
+Color	5
+BuyCost	pseudo	2	297000
+BuySpecialCost	29700
+SellCost	pseudo	2	59400
+TeamLevel	108
+HeroLevel	108
+AssetTexture	gear_202
+[[End]]
+[[	203	]]
+[BattleStatData]
+Intelligence	152
+MagicPower	960
+[End]
+[CraftRecipe]
+Cost	pseudo	2	535500
+GearRecipe	169	2	95	5
+ScrollRecipe	206	1
+[End]
+EnchantValue	1200
+Color	5
+BuyCost	pseudo	2	280500
+BuySpecialCost	28050
+SellCost	pseudo	2	56100
+TeamLevel	108
+HeroLevel	108
+AssetTexture	gear_203
+[[End]]
+[[	207	]]
+[BattleStatData]
+PhysicalAttack	774
+PhysicalCritChance	394
+[End]
+[CraftRecipe]
+Cost	pseudo	2	1275750
+GearRecipe	188	1	202	1
+ScrollRecipe	214	1
+[End]
+EnchantValue	2620
+Color	5
+BuyCost	pseudo	2	610500
+BuySpecialCost	63188
+SellCost	pseudo	2	122100
+TeamLevel	115
+HeroLevel	115
+AssetTexture	gear_207
+[[End]]
+[[	208	]]
+[BattleStatData]
+Hp	6656
+PhysicalAttack	1331
+[End]
+[CraftRecipe]
+Cost	pseudo	2	1685250
+GearRecipe	201	1	179	1
+ScrollRecipe	215	1
+[End]
+EnchantValue	3680
+Color	5
+BuyCost	pseudo	2	825000
+BuySpecialCost	87225
+SellCost	pseudo	2	165000
+TeamLevel	115
+HeroLevel	115
+AssetTexture	gear_208
+[[End]]
+[[	209	]]
+[BattleStatData]
+Intelligence	121
+Hp	2560
+MagicPower	1536
+[End]
+[CraftRecipe]
+Cost	pseudo	2	1212750
+GearRecipe	180	1	203	1
+ScrollRecipe	216	1
+[End]
+EnchantValue	2480
+Color	5
+BuyCost	pseudo	2	577500
+BuySpecialCost	59325
+SellCost	pseudo	2	115500
+TeamLevel	115
+HeroLevel	115
+AssetTexture	gear_209
+[[End]]
+[[	210	]]
+[BattleStatData]
+Strength	174
+Hp	2560
+MagicPower	1248
+[End]
+[CraftRecipe]
+Cost	pseudo	2	1055250
+GearRecipe	169	1	170	2	180	1
+ScrollRecipe	217	1
+[End]
+EnchantValue	2240
+Color	5
+BuyCost	pseudo	2	495000
+BuySpecialCost	51075
+SellCost	pseudo	2	99000
+TeamLevel	115
+HeroLevel	115
+AssetTexture	gear_210
+[[End]]
+[[	211	]]
+[BattleStatData]
+Intelligence	76
+Agility	76
+Strength	355
+[End]
+[CraftRecipe]
+Cost	pseudo	2	1181250
+GearRecipe	185	2
+ScrollRecipe	218	1
+[End]
+EnchantValue	2560
+Color	5
+BuyCost	pseudo	2	561000
+BuySpecialCost	60376
+SellCost	pseudo	2	112200
+TeamLevel	120
+HeroLevel	120
+AssetTexture	gear_211
+[[End]]
+[[	212	]]
+[BattleStatData]
+Intelligence	355
+Agility	76
+Strength	76
+[End]
+[CraftRecipe]
+Cost	pseudo	2	1181250
+GearRecipe	186	2
+ScrollRecipe	219	1
+[End]
+EnchantValue	2560
+Color	5
+BuyCost	pseudo	2	561000
+BuySpecialCost	60376
+SellCost	pseudo	2	112200
+TeamLevel	120
+HeroLevel	120
+AssetTexture	gear_212
+[[End]]
+[[	213	]]
+[BattleStatData]
+Intelligence	76
+Agility	355
+Strength	76
+[End]
+[CraftRecipe]
+Cost	pseudo	2	1181250
+GearRecipe	187	2
+ScrollRecipe	220	1
+[End]
+EnchantValue	2560
+Color	5
+BuyCost	pseudo	2	561000
+BuySpecialCost	60376
+SellCost	pseudo	2	112200
+TeamLevel	120
+HeroLevel	120
+AssetTexture	gear_213
+[[End]]
+[[End of File]]

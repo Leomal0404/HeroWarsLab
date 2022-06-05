@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* インタラクティブコンテンツコンテナ */
+#content{
+	margin:0;
+}
+
+/* モード切替 */
+#linkList span{
+	border: solid 1px rgb(236, 237, 243);
+    background-color: #c7c0bc;
+	margin:0px 16px 0px 0px;
+	font-weight:bold;
+}
+#linkList a {	text-decoration:none; }
+#linkList a:link { font-size:100%;color: #000000; }
+#linkList a:visited { font-size:100%;color: #000000; }
+#linkList a:hover { font-size:100%;color: #0072cf; text-decoration:underline;}
+#linkList a:active { font-size:100%;color: #000000; }
+
+
+.dataTableContainer{
+	margin:32px 0px 0px 0px;
+	width:100%;
+	overflow-x: auto;
+}
+
+.dataTableBox{
+	height:400px;
+	margin:0px 0px 50px 0px;
+	overflow-y: scroll;
+	overflow-x:hidden;
+}
+
+.dataTable{
+	border-collapse:  collapse;
+	margin:0px 0px 0px 0px;
+	font-size:70%;
+}
+.dataTable th {
+	border: solid 1px rgb(218, 204, 177);
+	color:#ffffff;
+	background-color: rgb(36, 14, 9);
+	padding:3px;
+}
+.dataTable td {
+	border: solid 1px rgb(218, 204, 177);
+	color:#ffffff;
+	padding:3px;
+	text-align:center;	
+}
+.dataTable .oddCell{
+	background-color: rgb(68, 64, 61);
+}
+.dataTable .evenCell{
+	background-color: rgb(49, 45, 43);	
+}
+
+.dataTable .firstHead{
+	text-align:left;
+	padding:3px 3px 3px 10px; 
+	box-sizing:border-box;
+}
+
+
+
+#regist_table{
+	width:720px;
+	/*background-image: url("../img/custom_table_bg.png");*/
+	background-repeat: no-repeat;
+	padding:32px 16px 32px 16px;
+	margin:0px 0px 64px 0px;
+}
+#regist_table th, #regist_table td {
+  border: solid 0px;	/*実線 1px 黒*/
+	
+}
+#regist_table th{
+  text-align:right;
+	background-color: #222222;
+	padding:32px 16px 16px 16px;
+}
+#regist_table td {
+  text-align:left;
+	background-color: #ffffff;
+	padding:32px 16px 10px 16px;
+}
+
+@media only screen and (max-height : 410px) {
+    .dataTableBox{
+		height:45vh;
+		margin:0px 0px 50px 0px;
+		overflow-y: scroll;
+		overflow-x:hidden;
+	}
+}

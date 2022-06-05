@@ -1,0 +1,16 @@
+{
+    "StatusName":{
+        "strength":"力", 
+        "agility":"素早さ", 
+        "intelligence":"知力", 
+        "magicPower":"魔法攻撃", 
+        "physicalAttack":"物理攻撃",
+        "physicalCritChance":"クリティカル率",
+        "dodge":"回避率", 
+        "hp":"HP", 
+        "magicResist":"魔法防御", 
+        "armorPenetration":"アーマー貫通", 
+        "armor":"アーマー", 
+        "magicPenetration":"魔法貫通"
+    }            
+}

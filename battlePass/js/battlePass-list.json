@@ -1,0 +1,5210 @@
+{
+    "battlePass": {
+        "free": {
+            "enr": [
+                "エネルギー消費",
+                "600",
+                "エネルギーを消費する",
+                "Use Energy"
+            ],
+            "tower": [
+                "タワー宝箱",
+                "25",
+                "タワーで宝箱を開ける",
+                "Open chest in the Tower"
+            ],
+            "high": [
+                "ハイウェイマン討伐",
+                "5",
+                "ハイウェイマンを倒す",
+                "Strike down the highwayman"
+            ],
+            "titan": [
+                "チタン石",
+                "186",
+                "ダンジョンでチタン石を集める",
+                "Collect Titanite in the Dungeon"
+            ],
+            "exped": [
+                "遠征回数",
+                "7",
+                "遠征を開始する",
+                "Begin Expedition"
+            ],
+            "out": [
+                "アウトランドバトル",
+                "7",
+                "アウトランドで勝利する",
+                "Win battle in Outland"
+            ],
+            "arena": [
+                "アリーナ",
+                "8",
+                "アリーナで戦う",
+                "Fight in the Arena"
+            ],
+            "exp": [
+                "経験値ポーション使用",
+                "60",
+                "経験値ポーションを使用する",
+                "Use EXP potion"
+            ],
+            "outchest": [
+                "アウトランド宝箱",
+                "7",
+                "アウトランドの宝箱を開ける",
+                "Open chest in Outlands"
+            ],
+            "hydra": [
+                "ヒドラバトル",
+                "3",
+                "ヒドラと戦う",
+                "Battle any Hydra"
+            ],
+            "grand": [
+                "グランドアリーナ",
+                "7",
+                "グランドアリーナで戦う",
+                "Fight in the Grand Arena"
+            ],
+            "stone": [
+                "ヒーローソウルストーン",
+                "42",
+                "ヒーローのソウルストーンを獲得する",
+                "Get Soul Stone of any hero"
+            ],
+            "quest": [
+                "キャンペーン周回",
+                "20",
+                "キャンペーンをクリアする",
+                "Clear the Campaign"
+            ],
+            "tower50": [
+                "タワー50階到達",
+                "1",
+                "タワー50階に到達する",
+                "Get to the 50 level of the Tower"
+            ],
+            "spark": [
+                "エレメントギフト強化",
+                "2",
+                "エレメントギフトのレベルを上げる",
+                "Upgrade the Gift of the Elements"
+            ],
+            "hero": [
+                "英雄ミッション",
+                "6",
+                "英雄ミッションを遂行する",
+                "Complete heroic mission"
+            ],
+            "herochest": [
+                "英雄の宝箱",
+                "2",
+                "英雄の宝箱を開ける",
+                "Open heroic chest"
+            ],
+            "art": [
+                "アーティファクト宝箱",
+                "4",
+                "アーティファクトの宝箱を開ける",
+                "Open Artifact Chest"
+            ],
+            "guild": [
+                "ギルド活動ポイント",
+                "500",
+                "ギルド活動ポイントを獲得する",
+                "Earn Guild Activity points"
+            ],
+            "skill": [
+                "スキルアップ",
+                "8",
+                "スキルレベルを上げる",
+                "Upgrade your heroes' skills 1 time"
+            ]
+        },
+        "select": {
+            "enr": [
+                "420",
+                "600"
+            ],
+            "tower": [
+                "15",
+                "20",
+                "25"
+            ],
+            "high": [
+                "5"
+            ],
+            "titan": [
+                "66",
+                "90",
+                "126",
+                "150",
+                "186",
+                "210",
+                "300"
+            ],
+            "exped": [
+                "6",
+                "7"
+            ],
+            "out": [
+                "5"
+            ],
+            "arena": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "exp": [
+                "0",
+                "10",
+                "20",
+                "30",
+                "40",
+                "50",
+                "60"
+            ],
+            "outchest": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "hydra": [
+                "3"
+            ],
+            "grand": [
+                "5",
+                "6",
+                "7"
+            ],
+            "stone": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "53",
+                "54",
+                "55",
+                "56",
+                "57",
+                "58",
+                "59",
+                "60",
+                "61",
+                "62",
+                "63",
+                "64",
+                "65",
+                "66",
+                "67",
+                "68",
+                "69",
+                "70",
+                "71",
+                "72",
+                "73",
+                "74",
+                "75",
+                "76",
+                "77",
+                "78",
+                "79",
+                "80",
+                "81",
+                "82",
+                "83",
+                "84",
+                "85",
+                "86",
+                "87",
+                "88",
+                "89",
+                "90"
+            ],
+            "quest": [
+                "20"
+            ],
+            "tower50": [
+                "0",
+                "1"
+            ],
+            "spark": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10"
+            ],
+            "hero": [
+                "3",
+                "6",
+                "9",
+                "12"
+            ],
+            "herochest": [
+                "1",
+                "2",
+                "3"
+            ],
+            "art": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "guild": [
+                "500"
+            ],
+            "skill": [
+                "8"
+            ]
+        },
+        "code": {
+            "heropotionusecount": "exp",
+            "activitytitanite": "titan",
+            "artifactchestcount": "art",
+            "fragmentheroget": "stone",
+            "spendenergy": "enr",
+            "bosschest": "outchest",
+            "killsomerobbers": "high",
+            "missioncompleteany": "quest",
+            "startexpedition": "exped",
+            "activitypoints": "guild",
+            "towerchest": "tower",
+            "arenabattle_arenaonly": "arena",
+            "missioncompleteeliteany": "hero",
+            "clanbossattack": "hydra",
+            "titangiftlevelup": "spark",
+            "chestopen": "herochest",
+            "arenabattle_grandonly": "grand",
+            "bossbattle": "out",
+            "towerfloor": "tower50",
+            "skill": "skill"
+        },
+        "codeExchange": {
+            "exp": "heropotionusecount",
+            "titan": "activitytitanite",
+            "art": "artifactchestcount",
+            "stone": "fragmentheroget",
+            "enr": "spendenergy",
+            "outchest": "bosschest",
+            "high": "killsomerobbers",
+            "quest": "missioncompleteany",
+            "exped": "startexpedition",
+            "guild": "activitypoints",
+            "tower": "towerchest",
+            "arena": "arenabattle_arenaonly",
+            "hero": "missioncompleteeliteany",
+            "hydra": "clanbossattack",
+            "spark": "titangiftlevelup",
+            "herochest": "chestopen",
+            "grand": "arenabattle_grandonly",
+            "out": "bossbattle",
+            "tower50": "towerfloor",
+            "skill": "skill"
+        },
+        "excel": {
+            "Use EXP potion: 1": "exp",
+            "Collect 1 Titanite in the Guild Dungeon": "titan",
+            "Open 1 Artifact Chest": "art",
+            "Get 1 Soul Stone of any hero": "stone",
+            "Use 1 Energy": "enr",
+            "Open 1 chest in Outlands": "outchest",
+            "Strike down the highwayman": "high",
+            "Complete 1 mission": "quest",
+            "Begin 1 Expedition": "exped",
+            "Earn 1 Guild Activity points": "guild",
+            "Open 1 chest in the Tower": "tower",
+            "Fight 1 time in the Arena": "arena",
+            "Complete 1 heroic mission": "hero",
+            "Battle any Hydra 1 time": "hydra",
+            "Upgrade the Gift of the Elements by 1 level": "spark",
+            "Open 1 heroic chest": "herochest",
+            "Fight 1 time in the Grand Arena": "grand",
+            "Win 1 battle in Outland": "out",
+            "Get to the 50 level of the Tower": "tower50",
+            "Upgrade your heroes' skills 1 time": "skill"
+        },
+        "eventChainId": {
+            "6": [
+                "2022",
+                "2"
+            ],
+            "7": [
+                "2022",
+                "3"
+            ],
+            "8": [
+                "2022",
+                "4"
+            ],
+            "9": [
+                "2022",
+                "5"
+            ],
+            "10": [
+                "2022",
+                "6"
+            ]
+        },
+        "quest": {
+            "100601": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "7",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100602": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "7",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100603": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "7",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100604": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "7",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100605": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "7",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100606": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "7",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100607": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "7",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100608": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "7",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100609": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "7",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100610": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "7",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100611": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "7",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100612": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "7",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100613": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "7",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100614": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "7",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100615": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "7",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100616": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "7",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100617": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "7",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100618": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "7",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100619": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "7",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "1400"
+                ]
+            },
+            "100620": {
+                "TranslationMethod": "skill",
+                "EventChainId": "7",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "1200"
+                ]
+            },
+            "100621": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "7",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100622": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "7",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100623": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "7",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "1120"
+                ]
+            },
+            "100624": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "7",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "840"
+                ]
+            },
+            "100625": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "7",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100626": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "7",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100627": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "7",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "800"
+                ]
+            },
+            "100628": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "7",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100629": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "7",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100630": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "7",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100631": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "7",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100632": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "7",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100633": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "7",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100634": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "7",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100635": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "7",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100636": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "7",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100637": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "7",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100638": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "7",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100639": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "7",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100640": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "7",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "1120"
+                ]
+            },
+            "100641": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "7",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1400"
+                ]
+            },
+            "100642": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "7",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100643": {
+                "TranslationMethod": "skill",
+                "EventChainId": "7",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "1200"
+                ]
+            },
+            "100644": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "7",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100645": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "7",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100646": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "7",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "3000"
+                ]
+            },
+            "100647": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "7",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100648": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "7",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100649": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "7",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100650": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "7",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100651": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "7",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100652": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "7",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100653": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "7",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100654": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "7",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100655": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "7",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100656": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "7",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100657": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "7",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100658": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "7",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100659": {
+                "TranslationMethod": "skill",
+                "EventChainId": "7",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "1200"
+                ]
+            },
+            "100660": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "7",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100661": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "7",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100662": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "7",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100663": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "7",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100664": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "7",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100665": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "7",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100666": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "7",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100667": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "7",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100668": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "7",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100669": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "7",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100670": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "7",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100671": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "7",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100672": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "7",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100673": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "7",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100674": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "7",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100675": {
+                "TranslationMethod": "skill",
+                "EventChainId": "7",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "1200"
+                ]
+            },
+            "100676": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "7",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100677": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "7",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100678": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "7",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100679": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "7",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100680": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "7",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100681": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "7",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100682": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "7",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100683": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "7",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100684": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "7",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100685": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "7",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100686": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "7",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100687": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "7",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100688": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "7",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100689": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "7",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100690": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "7",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100691": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "7",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100692": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "7",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100693": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "7",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100694": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "7",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100695": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "7",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100696": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "7",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100697": {
+                "TranslationMethod": "skill",
+                "EventChainId": "7",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "1200"
+                ]
+            },
+            "100698": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "7",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100699": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "7",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100700": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "7",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100701": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "8",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100702": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "8",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100703": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "8",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100704": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "8",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100705": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "8",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100706": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "8",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100707": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "8",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100708": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "8",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100709": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "8",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100710": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "8",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100711": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "8",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100712": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "8",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100713": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "8",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100714": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "8",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100715": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "8",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100716": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "8",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100717": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "8",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100718": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "8",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100719": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "8",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100720": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "8",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100721": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "8",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100722": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "8",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100723": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "8",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100724": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "8",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100725": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "8",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100726": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "8",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100727": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "8",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100728": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "8",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100729": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "8",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100730": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "8",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100731": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "8",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100732": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "8",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100733": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "8",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100734": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "8",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100735": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "8",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100736": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "8",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100737": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "8",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100738": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "8",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100739": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "8",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100740": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "8",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100741": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "8",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100742": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "8",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100743": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "8",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100744": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "8",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100745": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "8",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100746": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "8",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100747": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "8",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100748": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "8",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100749": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "8",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100750": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "8",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100751": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "8",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100752": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "8",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100753": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "8",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100754": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "8",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100755": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "8",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100756": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "8",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100757": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "8",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100758": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "8",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100759": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "8",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100760": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "8",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100761": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "8",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100762": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "8",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100763": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "8",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100764": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "8",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100765": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "8",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100766": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "8",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100767": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "8",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100768": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "8",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100769": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "8",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100770": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "8",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100771": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "8",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100772": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "8",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100773": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "8",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100774": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "8",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100775": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "8",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100776": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "8",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100777": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "8",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100778": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "8",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100779": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "8",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100780": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "8",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100781": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "8",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "6",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "960"
+                ]
+            },
+            "100782": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "8",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100783": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "8",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100784": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "8",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100785": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "8",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100786": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "8",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100787": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "8",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100788": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "8",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100789": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "8",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100790": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "8",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100791": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "8",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100792": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "8",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100793": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "8",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100794": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "8",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100795": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "8",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100796": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "8",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100797": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "8",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100798": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "8",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100799": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "8",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100800": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "8",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100801": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "9",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100802": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "9",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100803": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "9",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100804": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "9",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100805": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "9",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100806": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "9",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100807": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "9",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100808": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "9",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100809": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "9",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100810": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "9",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100811": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "9",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100812": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "9",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100813": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "9",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100814": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "9",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100815": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "9",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100816": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "9",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100817": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "9",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100818": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "9",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100819": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "9",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100820": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "9",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100821": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "9",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100822": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "9",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100823": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "9",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100824": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "9",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100825": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "9",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100826": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "9",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100827": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "9",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100828": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "9",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100829": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "9",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100830": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "9",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100831": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "9",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100832": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "9",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100833": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "9",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100834": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "9",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100835": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "9",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100836": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "9",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100837": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "9",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100838": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "9",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100839": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "9",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100840": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "9",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100841": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "9",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100842": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "9",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100843": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "9",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100844": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "9",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100845": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "9",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100846": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "9",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100847": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "9",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100848": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "9",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100849": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "9",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100850": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "9",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100851": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "9",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100852": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "9",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100853": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "9",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100854": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "9",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100855": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "9",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100856": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "9",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100857": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "9",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100858": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "9",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100859": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "9",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100860": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "9",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100861": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "9",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100862": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "9",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100863": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "9",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100864": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "9",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100865": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "9",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100866": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "9",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100867": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "9",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100868": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "9",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100869": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "9",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100870": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "9",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100871": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "9",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100872": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "9",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100873": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "9",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100874": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "9",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100875": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "9",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100876": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "9",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100877": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "9",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100878": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "9",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100879": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "9",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100880": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "9",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100881": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "9",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100882": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "9",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100883": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "9",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100884": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "9",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100885": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "9",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100886": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "9",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100887": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "9",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100888": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "9",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100889": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "9",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100890": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "9",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100891": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "9",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100892": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "9",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100893": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "9",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100894": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "9",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100895": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "9",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100896": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "9",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100897": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "9",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100898": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "9",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100899": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "9",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100900": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "9",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100901": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "10",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100902": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "10",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100903": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "10",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100904": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "10",
+                "ChainOrder": "1",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100905": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "10",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100906": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "10",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100907": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "10",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100908": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "10",
+                "ChainOrder": "2",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100909": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "10",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100910": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "10",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100911": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "10",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100912": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "10",
+                "ChainOrder": "3",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100913": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "10",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "1260"
+                ]
+            },
+            "100914": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "10",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100915": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "10",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100916": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "10",
+                "ChainOrder": "4",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100917": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "10",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100918": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "10",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100919": {
+                "TranslationMethod": "skill",
+                "EventChainId": "10",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "1200"
+                ]
+            },
+            "100920": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "10",
+                "ChainOrder": "5",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100921": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "10",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100922": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "10",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100923": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "10",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100924": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "10",
+                "ChainOrder": "6",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100925": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "10",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "1260"
+                ]
+            },
+            "100926": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "10",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100927": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "10",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100928": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "10",
+                "ChainOrder": "7",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100929": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "10",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100930": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "10",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100931": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "10",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100932": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "10",
+                "ChainOrder": "8",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100933": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "10",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100934": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "10",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100935": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "10",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100936": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "10",
+                "ChainOrder": "9",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100937": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "10",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100938": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "10",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100939": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "10",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100940": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "10",
+                "ChainOrder": "10",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100941": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "10",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100942": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "10",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100943": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "10",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100944": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "10",
+                "ChainOrder": "11",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100945": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "10",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "1260"
+                ]
+            },
+            "100946": {
+                "TranslationMethod": "skill",
+                "EventChainId": "10",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "1200"
+                ]
+            },
+            "100947": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "10",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100948": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "10",
+                "ChainOrder": "12",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100949": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "10",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100950": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "10",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100951": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "10",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100952": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "10",
+                "ChainOrder": "13",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100953": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "10",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100954": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "10",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100955": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "10",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100956": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "10",
+                "ChainOrder": "14",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100957": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "10",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100958": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "10",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "1260"
+                ]
+            },
+            "100959": {
+                "TranslationMethod": "skill",
+                "EventChainId": "10",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "1200"
+                ]
+            },
+            "100960": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "10",
+                "ChainOrder": "15",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100961": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "10",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100962": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "10",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100963": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "10",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100964": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "10",
+                "ChainOrder": "16",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100965": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "10",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100966": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "10",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100967": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "10",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100968": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "10",
+                "ChainOrder": "17",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100969": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "10",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100970": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "10",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100971": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "10",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100972": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "10",
+                "ChainOrder": "18",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100973": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "10",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100974": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "10",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "1260"
+                ]
+            },
+            "100975": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "10",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100976": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "10",
+                "ChainOrder": "19",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100977": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "10",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "100978": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "10",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100979": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "10",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100980": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "10",
+                "ChainOrder": "20",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            },
+            "100981": {
+                "TranslationMethod": "arenabattle_grandonly",
+                "EventChainId": "10",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "7",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "980"
+                ]
+            },
+            "100982": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "10",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100983": {
+                "TranslationMethod": "startexpedition",
+                "EventChainId": "10",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "9",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "1260"
+                ]
+            },
+            "100984": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "10",
+                "ChainOrder": "21",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100985": {
+                "TranslationMethod": "bosschest",
+                "EventChainId": "10",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "120",
+                    "960"
+                ]
+            },
+            "100986": {
+                "TranslationMethod": "activitypoints",
+                "EventChainId": "10",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "500",
+                "Reward": [
+                    "pseudo",
+                    "2",
+                    "1000"
+                ]
+            },
+            "100987": {
+                "TranslationMethod": "heropotionusecount",
+                "EventChainId": "10",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "60",
+                "Reward": [
+                    "pseudo",
+                    "20",
+                    "1200"
+                ]
+            },
+            "100988": {
+                "TranslationMethod": "missioncompleteeliteany",
+                "EventChainId": "10",
+                "ChainOrder": "22",
+                "Amount": "1",
+                "FarmRepeats": "12",
+                "Reward": [
+                    "pseudo",
+                    "165",
+                    "1980"
+                ]
+            },
+            "100989": {
+                "TranslationMethod": "fragmentheroget",
+                "EventChainId": "10",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "90",
+                "Reward": [
+                    "pseudo",
+                    "30",
+                    "2700"
+                ]
+            },
+            "100990": {
+                "TranslationMethod": "titangiftlevelup",
+                "EventChainId": "10",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "10",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "1600"
+                ]
+            },
+            "100991": {
+                "TranslationMethod": "artifactchestcount",
+                "EventChainId": "10",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "15",
+                "Reward": [
+                    "pseudo",
+                    "160",
+                    "2400"
+                ]
+            },
+            "100992": {
+                "TranslationMethod": "clanbossattack",
+                "EventChainId": "10",
+                "ChainOrder": "23",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "240",
+                    "720"
+                ]
+            },
+            "100993": {
+                "TranslationMethod": "killsomerobbers",
+                "EventChainId": "10",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "5",
+                "Reward": [
+                    "pseudo",
+                    "80",
+                    "400"
+                ]
+            },
+            "100994": {
+                "TranslationMethod": "arenabattle_arenaonly",
+                "EventChainId": "10",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100995": {
+                "TranslationMethod": "spendenergy",
+                "EventChainId": "10",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "600",
+                "Reward": [
+                    "pseudo",
+                    "1",
+                    "600"
+                ]
+            },
+            "100996": {
+                "TranslationMethod": "towerchest",
+                "EventChainId": "10",
+                "ChainOrder": "24",
+                "Amount": "1",
+                "FarmRepeats": "25",
+                "Reward": [
+                    "pseudo",
+                    "140",
+                    "3500"
+                ]
+            },
+            "100997": {
+                "TranslationMethod": "bossbattle",
+                "EventChainId": "10",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "8",
+                "Reward": [
+                    "pseudo",
+                    "200",
+                    "1600"
+                ]
+            },
+            "100998": {
+                "TranslationMethod": "chestopen",
+                "EventChainId": "10",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "3",
+                "Reward": [
+                    "pseudo",
+                    "300",
+                    "900"
+                ]
+            },
+            "100999": {
+                "TranslationMethod": "missioncompleteany",
+                "EventChainId": "10",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "20",
+                "Reward": [
+                    "pseudo",
+                    "100",
+                    "2000"
+                ]
+            },
+            "101000": {
+                "TranslationMethod": "activitytitanite",
+                "EventChainId": "10",
+                "ChainOrder": "25",
+                "Amount": "1",
+                "FarmRepeats": "170",
+                "Reward": [
+                    "pseudo",
+                    "5",
+                    "850"
+                ]
+            }
+        }
+    }
+}

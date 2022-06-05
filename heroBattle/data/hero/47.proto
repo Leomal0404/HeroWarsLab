@@ -1,0 +1,224 @@
+Role	front
+RoleExtended	support	control	mystic
+BattleOrder	16
+MainStat	Strength
+Type	hero
+[BaseStats]
+Intelligence	10
+Agility	10
+Strength	25
+Hp	500
+PhysicalAttack	50
+[End]
+Runes	5	4	12	7	1
+Artifacts	1047	2004	3002
+[Colors]
+*0*
+Items	0	0	0	0	0	0
+*End*
+*1*
+Items	8	8	5	14	15	15
+*End*
+*2*
+Items	14	15	8	18	27	21
+**BattleStatData**
+Intelligence	2
+Agility	2
+Strength	21
+PhysicalAttack	25
+Armor	50
+**End**
+*End*
+*3*
+Items	18	15	25	21	37	43
+**BattleStatData**
+Intelligence	4
+Agility	4
+Strength	47
+Hp	385
+PhysicalAttack	50
+Armor	125
+**End**
+*End*
+*4*
+Items	21	27	37	36	59	70
+**BattleStatData**
+Intelligence	6
+Agility	6
+Strength	83
+Hp	770
+PhysicalAttack	116
+Armor	225
+**End**
+*End*
+*5*
+Items	37	53	36	59	57	69
+**BattleStatData**
+Intelligence	8
+Agility	8
+Strength	115
+Hp	1270
+PhysicalAttack	172
+Armor	425
+ArmorPenetration	80
+**End**
+*End*
+*6*
+Items	31	36	59	69	70	90
+**BattleStatData**
+Intelligence	10
+Agility	10
+Strength	153
+Hp	1770
+PhysicalAttack	275
+Armor	655
+ArmorPenetration	130
+**End**
+*End*
+*7*
+Items	59	69	69	85	97	92
+**BattleStatData**
+Intelligence	12
+Agility	12
+Strength	197
+Hp	2270
+PhysicalAttack	401
+Armor	915
+ArmorPenetration	260
+**End**
+*End*
+*8*
+Items	59	69	90	94	97	114
+**BattleStatData**
+Intelligence	19
+Agility	19
+Strength	246
+Hp	3270
+PhysicalAttack	536
+Armor	1175
+ArmorPenetration	460
+**End**
+*End*
+*9*
+Items	59	70	99	114	131	131
+**BattleStatData**
+Intelligence	21
+Agility	21
+Strength	318
+Hp	4870
+PhysicalAttack	822
+Armor	1435
+ArmorPenetration	660
+**End**
+*End*
+*10*
+Items	90	97	122	114	131	136
+**BattleStatData**
+Intelligence	71
+Agility	71
+Strength	428
+Hp	6470
+PhysicalAttack	1094
+Armor	1735
+ArmorPenetration	740
+**End**
+*End*
+*11*
+Items	97	114	114	136	170	175
+**BattleStatData**
+Intelligence	135
+Agility	135
+Strength	586
+Hp	8070
+PhysicalAttack	1488
+Armor	1975
+ArmorPenetration	940
+**End**
+*End*
+*12*
+Items	122	114	136	175	170	182
+**BattleStatData**
+Intelligence	175
+Agility	175
+Strength	783
+Hp	11270
+PhysicalAttack	1920
+Armor	2575
+ArmorPenetration	1140
+**End**
+*End*
+*13*
+Items	99	99	173	183	179	185
+**BattleStatData**
+Intelligence	215
+Agility	215
+Strength	980
+Hp	12870
+PhysicalAttack	2564
+Armor	3335
+ArmorPenetration	1460
+**End**
+*End*
+*14*
+Items	97	136	175	175	185	208
+**BattleStatData**
+Intelligence	265
+Agility	265
+Strength	1204
+Hp	20870
+PhysicalAttack	3204
+Armor	4055
+ArmorPenetration	2060
+**End**
+*End*
+*15*
+Items	97	175	175	201	185	211
+**BattleStatData**
+Intelligence	353
+Agility	353
+Strength	1514
+Hp	27526
+PhysicalAttack	4535
+Armor	5255
+ArmorPenetration	2260
+**End**
+*End*
+[End]
+[Stars]
+*2*
+Intelligence	3
+Agility	3
+Strength	9
+*End*
+*3*
+Intelligence	5
+Agility	5
+Strength	12
+*End*
+*4*
+Intelligence	6
+Agility	6
+Strength	18
+*End*
+*5*
+Intelligence	8
+Agility	9
+Strength	23
+*End*
+*6*
+Intelligence	11
+Agility	12
+Strength	27
+*End*
+[End]
+IconAssetTexture	hero_0047
+FragmentSpecialCost	100
+FragmentBuyCost	pseudo	1	40
+FragmentSellCost	pseudo	2	4000
+EpicArtAsset	h047.jpg
+Skill	0	234	1	235	2	11003	3	237	4	238
+Skin	102	160	192
+[Other]
+MinStar	2
+[End]
+[[End]]

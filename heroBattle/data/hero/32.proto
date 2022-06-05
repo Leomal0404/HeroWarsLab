@@ -1,0 +1,223 @@
+Role	back
+RoleExtended	mage	support	blessed
+BattleOrder	2019
+MainStat	Intelligence
+Type	hero
+[BaseStats]
+Intelligence	20
+Agility	15
+Strength	10
+Hp	500
+PhysicalAttack	50
+[End]
+Runes	6	4	8	7	2
+Artifacts	1032	2005	3001
+[Colors]
+*0*
+Items	0	0	0	0	0	0
+*End*
+*1*
+Items	4	4	7	19	9	13
+*End*
+*2*
+Items	2	7	19	11	22	26
+**BattleStatData**
+Intelligence	19
+Agility	2
+Strength	2
+Hp	385
+MagicPower	75
+MagicResist	25
+**End**
+*End*
+*3*
+Items	19	19	26	22	26	40
+**BattleStatData**
+Intelligence	43
+Agility	5
+Strength	5
+Hp	585
+MagicPower	200
+MagicResist	25
+**End**
+*End*
+*4*
+Items	26	28	40	28	51	48
+**BattleStatData**
+Intelligence	79
+Agility	7
+Strength	7
+Hp	585
+MagicPower	450
+MagicResist	25
+**End**
+*End*
+*5*
+Items	45	40	46	40	48	63
+**BattleStatData**
+Intelligence	116
+Agility	19
+Strength	19
+Hp	585
+MagicPower	634
+MagicResist	167
+**End**
+*End*
+*6*
+Items	40	11	51	46	68	86
+**BattleStatData**
+Intelligence	153
+Agility	21
+Strength	21
+Hp	1885
+MagicPower	998
+MagicResist	259
+**End**
+*End*
+*7*
+Items	48	48	88	86	93	95
+**BattleStatData**
+Intelligence	195
+Agility	39
+Strength	39
+Hp	2385
+MagicPower	1178
+Armor	80
+MagicResist	359
+**End**
+*End*
+*8*
+Items	51	48	100	95	93	116
+**BattleStatData**
+Intelligence	280
+Agility	46
+Strength	46
+Hp	3185
+MagicPower	1626
+Armor	180
+MagicResist	543
+**End**
+*End*
+*9*
+Items	86	64	119	91	119	135
+**BattleStatData**
+Intelligence	375
+Agility	58
+Strength	58
+Hp	3185
+MagicPower	2070
+Armor	180
+MagicResist	945
+**End**
+*End*
+*10*
+Items	93	86	119	93	116	140
+**BattleStatData**
+Intelligence	452
+Agility	65
+Strength	65
+Hp	8545
+MagicPower	2902
+Armor	180
+MagicResist	1125
+**End**
+*End*
+*11*
+Items	116	119	135	132	171	167
+**BattleStatData**
+Intelligence	529
+Agility	72
+Strength	72
+Hp	12641
+MagicPower	4441
+Armor	180
+MagicResist	1385
+**End**
+*End*
+*12*
+Items	132	119	171	135	167	184
+**BattleStatData**
+Intelligence	754
+Agility	98
+Strength	98
+Hp	21201
+MagicPower	5273
+Armor	180
+MagicResist	1545
+**End**
+*End*
+*13*
+Items	137	115	169	169	184	186
+**BattleStatData**
+Intelligence	949
+Agility	124
+Strength	124
+Hp	34561
+MagicPower	5945
+Armor	180
+MagicResist	1865
+**End**
+*End*
+*14*
+Items	135	126	184	169	203	209
+**BattleStatData**
+Intelligence	1235
+Agility	188
+Strength	188
+Hp	39361
+MagicPower	7305
+Armor	180
+MagicResist	2345
+**End**
+*End*
+*15*
+Items	140	137	184	176	203	212
+**BattleStatData**
+Intelligence	1510
+Agility	190
+Strength	190
+Hp	50881
+MagicPower	11233
+Armor	180
+MagicResist	2665
+**End**
+*End*
+[End]
+[Stars]
+*2*
+Intelligence	7
+Agility	4
+Strength	4
+*End*
+*3*
+Intelligence	10
+Agility	6
+Strength	6
+*End*
+*4*
+Intelligence	14
+Agility	8
+Strength	8
+*End*
+*5*
+Intelligence	18
+Agility	11
+Strength	11
+*End*
+*6*
+Intelligence	24
+Agility	13
+Strength	13
+*End*
+[End]
+IconAssetTexture	hero_0032
+FragmentSpecialCost	100
+FragmentBuyCost	pseudo	1	40
+FragmentSellCost	pseudo	2	4000
+EpicArtAsset	h032.jpg
+Skill	0	159	1	160	2	161	3	162	4	163
+Skin	45	73	81	135	195
+[Other]
+MinStar	2
+[End]
+[[End]]

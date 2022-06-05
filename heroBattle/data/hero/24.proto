@@ -1,0 +1,218 @@
+Role	front
+RoleExtended	melee_tank	control	chaos
+BattleOrder	3
+MainStat	Strength
+Type	hero
+[BaseStats]
+Intelligence	10
+Agility	15
+Strength	20
+Hp	500
+PhysicalAttack	50
+Armor	1000
+MagicResist	300
+[End]
+Runes	5	7	4	8	1
+Artifacts	1024	2006	3002
+[Colors]
+*0*
+Items	0	0	0	0	0	0
+*End*
+*1*
+Items	1	5	8	13	14	15
+*End*
+*2*
+Items	8	14	10	18	21	27
+**BattleStatData**
+Intelligence	2
+Agility	2
+Strength	14
+Hp	385
+PhysicalAttack	37
+Armor	25
+**End**
+*End*
+*3*
+Items	8	18	21	25	36	43
+**BattleStatData**
+Intelligence	5
+Agility	5
+Strength	38
+Hp	770
+PhysicalAttack	62
+Armor	100
+**End**
+*End*
+*4*
+Items	21	37	44	47	56	57
+**BattleStatData**
+Intelligence	7
+Agility	7
+Strength	67
+Hp	1655
+PhysicalAttack	128
+Armor	175
+**End**
+*End*
+*5*
+Items	37	44	47	56	57	77
+**BattleStatData**
+Intelligence	9
+Agility	9
+Strength	104
+Hp	3075
+PhysicalAttack	226
+Armor	317
+MagicResist	50
+**End**
+*End*
+*6*
+Items	33	47	56	59	77	90
+**BattleStatData**
+Intelligence	11
+Agility	11
+Strength	131
+Hp	4495
+PhysicalAttack	324
+Armor	459
+MagicResist	100
+Lifesteal	5
+**End**
+*End*
+*7*
+Items	57	65	85	77	94	99
+**BattleStatData**
+Intelligence	18
+Agility	18
+Strength	176
+Hp	5915
+PhysicalAttack	422
+Armor	681
+MagicResist	100
+Lifesteal	10
+**End**
+*End*
+*8*
+Items	90	92	94	91	99	124
+**BattleStatData**
+Intelligence	25
+Agility	25
+Strength	231
+Hp	6915
+PhysicalAttack	548
+Armor	881
+MagicResist	180
+Lifesteal	15
+**End**
+*End*
+*9*
+Items	90	91	122	123	124	131
+**BattleStatData**
+Intelligence	27
+Agility	27
+Strength	287
+Hp	8915
+PhysicalAttack	753
+Armor	1161
+MagicResist	180
+Lifesteal	25
+**End**
+*End*
+*10*
+Items	114	122	123	124	125	136
+**BattleStatData**
+Intelligence	53
+Agility	53
+Strength	389
+Hp	12515
+PhysicalAttack	931
+Armor	1401
+MagicResist	180
+Lifesteal	35
+**End**
+*End*
+*11*
+Items	136	123	124	125	170	175
+**BattleStatData**
+Intelligence	93
+Agility	93
+Strength	507
+Hp	15715
+PhysicalAttack	1471
+Armor	1561
+MagicResist	340
+Lifesteal	45
+**End**
+*End*
+*12*
+Items	114	125	136	168	170	183
+**BattleStatData**
+Intelligence	133
+Agility	133
+Strength	734
+Hp	17315
+PhysicalAttack	1687
+Armor	2161
+MagicResist	500
+Lifesteal	55
+**End**
+*End*
+*13*
+Items	123	122	167	168	179	185
+**BattleStatData**
+Intelligence	173
+Agility	173
+Strength	931
+Hp	23715
+PhysicalAttack	2519
+Armor	2481
+MagicResist	660
+Lifesteal	55
+**End**
+*End*
+*14*
+Items	114	134	184	183	179	208
+**BattleStatData**
+Intelligence	199
+Agility	199
+Strength	1161
+Hp	34515
+PhysicalAttack	3667
+Armor	2641
+MagicResist	660
+Lifesteal	55
+**End**
+*End*
+*15*
+Items	136	139	168	168	201	211
+**BattleStatData**
+Intelligence	201
+Agility	201
+Strength	1163
+Hp	55571
+PhysicalAttack	6199
+Armor	2961
+MagicResist	1236
+Lifesteal	55
+**End**
+*End*
+[End]
+[Stars]
+*6*
+Intelligence	11
+Agility	15
+Strength	24
+*End*
+[End]
+IconAssetTexture	hero_0024
+FragmentSpecialCost	100
+FragmentBuyCost	pseudo	1	40
+FragmentSellCost	pseudo	2	4000
+ObtainType	chest:town
+EpicArtAsset	h024.jpg
+Skill	0	119	1	120	2	121	3	122	4	123
+Skin	24	75	93	145
+[Other]
+MinStar	6
+[End]
+[[End]]

@@ -1,0 +1,250 @@
+Role	back
+RoleExtended	ranged_dps	engineer
+BattleOrder	2010
+MainStat	Agility
+Type	hero
+[BaseStats]
+Intelligence	15
+Agility	20
+Strength	10
+Hp	500
+PhysicalAttack	60
+[End]
+Runes	5	7	12	9	3
+Artifacts	1014	2004	3003
+[Colors]
+*0*
+Items	0	0	0	0	0	0
+*End*
+*1*
+Items	1	2	6	8	9	14
+*End*
+*2*
+Items	23	9	12	20	24	25
+**BattleStatData**
+Intelligence	7
+Agility	7
+Strength	7
+Hp	200
+PhysicalAttack	37
+Armor	25
+MagicResist	25
+**End**
+*End*
+*3*
+Items	12	20	25	27	28	51
+**BattleStatData**
+Intelligence	10
+Agility	31
+Strength	10
+Hp	700
+PhysicalAttack	95
+Armor	25
+MagicResist	50
+**End**
+*End*
+*4*
+Items	24	38	44	53	57	61
+**BattleStatData**
+Intelligence	23
+Agility	55
+Strength	23
+Hp	700
+PhysicalAttack	153
+Armor	75
+MagicResist	100
+**End**
+*End*
+*5*
+Items	29	35	39	57	59	70
+**BattleStatData**
+Intelligence	25
+Agility	67
+Strength	25
+Hp	1200
+PhysicalAttack	289
+Armor	125
+MagicResist	150
+ArmorPenetration	50
+PhysicalCritChance	30
+**End**
+*End*
+*6*
+Items	27	28	42	66	70	89
+**BattleStatData**
+Intelligence	32
+Agility	91
+Strength	32
+Hp	1200
+PhysicalAttack	415
+Armor	225
+MagicResist	200
+ArmorPenetration	130
+PhysicalCritChance	45
+**End**
+*End*
+*7*
+Items	66	65	70	76	89	96
+**BattleStatData**
+Intelligence	34
+Agility	125
+Strength	34
+Hp	1700
+PhysicalAttack	616
+Armor	275
+MagicResist	250
+ArmorPenetration	210
+PhysicalCritChance	75
+**End**
+*End*
+*8*
+Items	64	72	76	89	99	118
+**BattleStatData**
+Intelligence	41
+Agility	212
+Strength	41
+Hp	1700
+PhysicalAttack	840
+Armor	275
+MagicResist	330
+ArmorPenetration	290
+PhysicalCritChance	105
+**End**
+*End*
+*9*
+Items	56	120	72	76	118	134
+**BattleStatData**
+Intelligence	48
+Agility	275
+Strength	48
+Hp	2500
+PhysicalAttack	1060
+Armor	475
+MagicResist	410
+ArmorPenetration	450
+PhysicalCritChance	159
+**End**
+*End*
+*10*
+Items	133	69	72	89	118	139
+**BattleStatData**
+Intelligence	55
+Agility	352
+Strength	55
+Hp	3500
+PhysicalAttack	1677
+Armor	475
+MagicResist	666
+ArmorPenetration	610
+PhysicalCritChance	183
+**End**
+*End*
+*11*
+Items	118	122	134	133	172	177
+**BattleStatData**
+Intelligence	81
+Agility	454
+Strength	97
+Hp	3500
+PhysicalAttack	2449
+Armor	555
+MagicResist	1075
+ArmorPenetration	770
+PhysicalCritChance	237
+**End**
+*End*
+*12*
+Items	121	122	133	173	172	188
+**BattleStatData**
+Intelligence	107
+Agility	649
+Strength	123
+Hp	3500
+PhysicalAttack	3010
+Armor	715
+MagicResist	1331
+ArmorPenetration	930
+PhysicalCritChance	403
+**End**
+*End*
+*13*
+Items	120	122	168	173	188	187
+**BattleStatData**
+Intelligence	133
+Agility	844
+Strength	149
+Hp	3500
+PhysicalAttack	3438
+Armor	875
+MagicResist	1491
+ArmorPenetration	1530
+PhysicalCritChance	631
+**End**
+*End*
+*14*
+Items	125	138	168	182	188	207
+**BattleStatData**
+Intelligence	183
+Agility	1098
+Strength	199
+Hp	3500
+PhysicalAttack	4374
+Armor	1035
+MagicResist	1491
+ArmorPenetration	2130
+PhysicalCritChance	859
+**End**
+*End*
+*15*
+Items	139	138	173	182	202	213
+**BattleStatData**
+Intelligence	223
+Agility	1186
+Strength	239
+Hp	3500
+PhysicalAttack	6404
+Armor	1035
+MagicResist	1651
+ArmorPenetration	2450
+PhysicalCritChance	1481
+**End**
+*End*
+[End]
+[Stars]
+*2*
+Intelligence	5
+Agility	6
+Strength	4
+*End*
+*3*
+Intelligence	7
+Agility	8
+Strength	7
+*End*
+*4*
+Intelligence	8
+Agility	13
+Strength	9
+*End*
+*5*
+Intelligence	11
+Agility	17
+Strength	12
+*End*
+*6*
+Intelligence	13
+Agility	23
+Strength	14
+*End*
+[End]
+IconAssetTexture	hero_0014
+FragmentSpecialCost	100
+FragmentBuyCost	pseudo	1	40
+FragmentSellCost	pseudo	2	4000
+EpicArtAsset	h014.jpg
+Skill	0	274	1	275	2	276	3	277	4	278
+Skin	14	42	140	143	144	190
+[Other]
+MinStar	2
+[End]
+[[End]]
